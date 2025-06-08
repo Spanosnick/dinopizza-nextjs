@@ -1,5 +1,6 @@
 
 import {Fragment} from "react";
+import Script from "next/script";
 
 export default function Home() {
     return (
@@ -254,7 +255,7 @@ export default function Home() {
                         <h5 className="custom-primary">Οι πελάτες μας</h5>
                         <h2 className="title"> Δείτε τι είπαν για εμάς</h2>
                     </div>
-                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <Script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></Script>
                     <div className="elfsight-app-dcceabdb-f9e1-4e4c-98b8-afcd8649ac6d" data-elfsight-app-lazy></div>
                 </div>
             </section>
@@ -273,7 +274,7 @@ export default function Home() {
 
 
             <div className="text-center">
-                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <Script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></Script>
                 <div className="elfsight-app-70e9526f-7406-45ff-b247-e6c80708e297" data-elfsight-app-lazy></div>
             </div>
 
