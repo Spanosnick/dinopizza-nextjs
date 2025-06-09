@@ -336,27 +336,27 @@ export default function Home() {
                                 <div className="row">
                                     <div className="form-group col-lg-6">
                                         <input type="text" placeholder="Όνομα " className="form-control" name="name"
-                                               value=""/>
+                                               />
                                     </div>
                                     <div className="form-group col-lg-6">
                                         <input type="text" placeholder="Επώνυμο " className="form-control"
                                                name="surname"
-                                               value=""/>
+                                               />
                                     </div>
                                     <div className="form-group col-lg-12">
                                         <input type="email" placeholder="Email  " className="form-control" name="email"
-                                               value=""/>
+                                               />
                                     </div>
                                     <div className="form-group col-lg-12">
                                         <input type="text" placeholder="Θέμα " className="form-control" name="subject"
-                                               value=""/>
+                                               />
                                     </div>
                                     <div className="form-group col-lg-12">
                             <textarea name="message" className="form-control" placeholder="Μήνυμα "
                                       rows="8"></textarea>
                                     </div>
                                 </div>
-                                <button className="btn-custom primary" onClick="defaultForm(event,'')">Αποστολή
+                                <button className="btn-custom primary" >Αποστολή
                                     Μηνύματος
                                 </button>
                             </form>
