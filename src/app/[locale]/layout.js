@@ -5,6 +5,9 @@ import {MobileNavigation} from "@/components/Navigation/MobileNavigation";
 import {Navigation} from "@/components/Navigation/Navigation";
 import LanguageChanger from "@/components/LanguageChanger/LanguageChanger";
 import Footer from "@/components/Footer/Footer";
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {notFound} from 'next/navigation';
+import {routing} from '../../i18n/routing';
 
 
 export const metadata = {
@@ -12,9 +15,13 @@ export const metadata = {
     description: "Dino Pizza - The best pizza in Vasilikou",
 };
 
-export default function RootLayout({children}) {
+export default async function  RootLayout({children,params}) {
+    const {locale} = await params;
+    if (!hasLocale(routing.locales, locale)) {
+        notFound();
+    }
     return (
-        <html>
+        <html lang={locale}>
         <head>
             <link rel="stylesheet" href="/css/style.css"/>
             <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.webp"/>
@@ -24,14 +31,14 @@ export default function RootLayout({children}) {
             <link rel="apple-touch-icon" sizes="180x180" href="/img/logo.webp"/>
         </head>
         <body >
-        {/*<Head/>*/}
-        <MobileNavigation/>
-        <Navigation/>
-        <LanguageChanger/>
-
-        {children}
+        <NextIntlClientProvider>
+            <MobileNavigation/>
+            <Navigation/>
+            <LanguageChanger/>
+            {children}
+        </NextIntlClientProvider>
         <Footer/>
-        <Script src="/js/plugins/jquery-3.4.1.min.js"  strategy="beforeInteractive"></Script>
+        <Script src="/js/plugins/jquery-3.4.1.min.js" strategy="beforeInteractive"></Script>
         <Script src="/js/plugins/popper.min.js"></Script>
         <Script src="/js/plugins/waypoint.js"></Script>
         <Script src="/js/plugins/bootstrap.min.js"></Script>

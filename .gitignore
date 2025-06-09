@@ -42,3 +42,5 @@ next-env.d.ts
 
 # idea folder
 .idea
+
+package-lock.json

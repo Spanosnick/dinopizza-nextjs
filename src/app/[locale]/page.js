@@ -1,8 +1,9 @@
-
 import {Fragment} from "react";
 import Script from "next/script";
+import {useTranslations} from 'next-intl';
 
 export default function Home() {
+    const messages = useTranslations('HomePage');
     return (
         <Fragment>
             <div className="banner banner-1 banner-4 light-banner">
@@ -12,7 +13,7 @@ export default function Home() {
                         style={{backgroundImage: "url('/img/banner/7.webp')"}}>
                         <div className="container">
 
-                            <h2 className="title"> Ποιότητα & Γεύση</h2>
+                            <h2 className="title"> Ποιότητα & Γεύση {messages('title')}</h2>
                             <p className="subtitle">
                                 Γευτείτε την παράδοση με κάθε μπουκιά - φρέσκια, χειροποίητη πίτσα φτιαγμένη με τα
                                 καλύτερα
