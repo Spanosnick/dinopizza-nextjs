@@ -36,7 +36,7 @@ export function HeroSection() {
                             </div>
                         </div>
                         <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper my-2">
-                            <Image className="img-fluid" src={`${process.env.BASE_PATH}/img/auth.webp`} width={600} height={600} alt="Pizza Vasiliko"/>
+                            <Image className="img-fluid" src={`/img/auth.webp`} width={600} height={600} alt="Pizza Vasiliko"/>
                         </div>
 
                     </div>

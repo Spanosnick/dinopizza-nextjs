@@ -21,7 +21,7 @@ export default function About() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper">
-                            <Image src={`${process.env.BASE_PATH}/img/auth.webp`} width={700} height={500} alt="img" />
+                            <Image src={`/img/auth.webp`} width={700} height={500} alt="img" />
                         </div>
                         <div className="col-lg-6">
                             <div className="section-title-wrap mr-lg-30">
