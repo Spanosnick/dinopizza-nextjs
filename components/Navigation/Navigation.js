@@ -36,7 +36,7 @@ export function Navigation() {
 
                 <div className="container">
                     <nav className="navbar">
-                        <Link className="navbar-brand " href=""> <Image src="/img/logo.webp" width={200} height={300}
+                        <Link className="navbar-brand " href=""> <Image src={`${process.env.BASE_PATH}/img/logo.webp`} width={200} height={300}
                                                                         alt="logo"/> </Link>
                         <ul className="navbar-nav ">
                             <li className="menu-item">

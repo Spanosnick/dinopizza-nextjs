@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -20,7 +21,7 @@ export default function About() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper">
-                            <Image src="/img/auth.webp" width={700} height={500} alt="img" />
+                            <Image src={`${process.env.BASE_PATH}/img/auth.webp`} width={700} height={500} alt="img" />
                         </div>
                         <div className="col-lg-6">
                             <div className="section-title-wrap mr-lg-30">
@@ -35,9 +36,9 @@ export default function About() {
                                     Σας ευχαριστούμε για την προτίμησή σας και σας προσκαλούμε να ανακαλύψετε τις μοναδικές γεύσεις μας...
                                 </p>
 
-                                <a href="/menu" className="btn-custom">
+                                <Link href="/menu" className="btn-custom">
                                     Δείτε το μενού μας
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -5524,6 +5524,7 @@ padding:  .5em ;
   background-color: #ED4E53;
   border: none;
   position: relative;
+  margin: 3em auto;
 }
 .careerBanner:before {
   position: absolute;
@@ -5564,7 +5565,8 @@ padding:  .5em ;
 }
 .careerImage,.careerInfo{
   width: 70%;
-    margin: 0 auto;
+    margin: 3em auto;
+  padding: 50px;
   text-align: center;
 }
 .careerImage{

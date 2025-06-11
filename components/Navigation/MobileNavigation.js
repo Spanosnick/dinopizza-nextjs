@@ -1,143 +1,161 @@
 import {Fragment} from "react";
+import Link from "next/link";
 
 export function MobileNavigation() {
     return (
         <Fragment>
             <aside className="main-aside">
-
                 <div className="aside-scroll">
                     <ul>
                         <li className="menu-item">
-                            <a href=""> Αρχική</a>
+                            <Link href=""> Αρχική</Link>
                         </li>
 
 
                         <li className="menu-item menu-item-has-children">
-                            <a href="menu"> Μενού</a>
+                            <Link href="menu"> Μενού</Link>
                             <ul className="submenu">
                                 <li className="menu-item">
-                                    <a href="menu">Ολόκληρο το μενού</a>
+                                    <Link href="menu">Ολόκληρο το μενού</Link>
                                 </li>
                                 <li className="menu-item menu-item-has-children">
-                                    <a href="menu#pizza">Πίτσες</a>
+                                    <Link href="menu#pizza">Πίτσες</Link>
                                     <ul className="submenu">
                                         <li className="menu-item menu-item-has-children">
-                                            <a href="menu#pizza">Special</a>
+                                            <Link href="menu#pizza">Special</Link>
                                             <ul className="submenu">
-                                                <li className="menu-item"><a href="menu/pizza/dino-special">Dino
-                                                    Special</a></li>
-                                                <li className="menu-item"><a href="menu/pizza/ala-krem">Αλα Κρεμ</a>
+                                                <li className="menu-item"><Link href="menu/pizza/dino-special">Dino
+                                                    Special</Link></li>
+                                                <li className="menu-item"><Link href="menu/pizza/ala-krem">Αλα
+                                                    Κρεμ</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/chicken">Με Κοτόπουλο</a>
+                                                <li className="menu-item"><Link href="menu/pizza/chicken">Με
+                                                    Κοτόπουλο</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/cold-cut">Αλλαντικών</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/cold-cut">Αλλαντικών</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/barbeque">Μπάρμπεκιου</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/barbeque">Μπάρμπεκιου</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/chicken-barbeque">Κοτόπουλο
-                                                    Μπάρμπεκιου</a></li>
-                                                <li className="menu-item"><a href="menu/pizza/chicken-ala-krem">Κοτόπουλο
-                                                    Αλα Κρέμ</a></li>
+                                                <li className="menu-item"><Link href="menu/pizza/chicken-barbeque">Κοτόπουλο
+                                                    Μπάρμπεκιου</Link></li>
+                                                <li className="menu-item"><Link href="menu/pizza/chicken-ala-krem">Κοτόπουλο
+                                                    Αλα Κρέμ</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item menu-item-has-children">
-                                            <a href="menu#pizza">Πικάντικες</a>
+                                            <Link href="menu#pizza">Πικάντικες</Link>
                                             <ul className="submenu">
-                                                <li className="menu-item"><a href="menu/pizza/vezoubios">Βεζούβιος</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/vezoubios">Βεζούβιος</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/spicy">Πικάντικη</a></li>
-                                                <li className="menu-item"><a href="menu/pizza/mexican">Μεξικάνικη</a>
+                                                <li className="menu-item"><Link href="menu/pizza/spicy">Πικάντικη</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/politiki">Πολίτικη</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/mexican">Μεξικάνικη</Link>
+                                                </li>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/politiki">Πολίτικη</Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="menu-item menu-item-has-children">
-                                            <a href="menu#pizza">Vegeterian</a>
+                                            <Link href="menu#pizza">Vegeterian</Link>
                                             <ul className="submenu">
-                                                <li className="menu-item"><a href="menu/pizza/margarita">Μαργαρίτα</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/margarita">Μαργαρίτα</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/village">Χωριάτικη</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/village">Χωριάτικη</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/agrotiki">Αγροτική</a>
+                                                <li className="menu-item"><Link
+                                                    href="menu/pizza/agrotiki">Αγροτική</Link>
                                                 </li>
-                                                <li className="menu-item"><a href="menu/pizza/four-cheese">Με 4
-                                                    τυριά</a></li>
+                                                <li className="menu-item"><Link href="menu/pizza/four-cheese">Με 4
+                                                    τυριά</Link></li>
                                             </ul>
                                         </li>
                                         <li className="menu-item menu-item-has-children">
-                                            <a href="menu#pizza">Γλυκές</a>
+                                            <Link href="menu#pizza">Γλυκές</Link>
                                             <ul className="submenu">
-                                                <li className="menu-item"><a href="menu/pizza/sweet">Γλυκιά Πίτσα</a>
+                                                <li className="menu-item"><Link href="menu/pizza/sweet">Γλυκιά
+                                                    Πίτσα</Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="menu-item">
-                                            <a href="yourpizza">Φτιάξε τη δική σου</a>
+                                            <Link href="yourpizza">Φτιάξε τη δική σου</Link>
                                         </li>
                                     </ul>
                                 </li>
 
                                 <li className="menu-item menu-item-has-children">
-                                    <a href="menu#pasta">Ζυμαρικά Φούρνου</a>
+                                    <Link href="menu#pasta">Ζυμαρικά Φούρνου</Link>
                                     <ul className="submenu">
-                                        <li className="menu-item"><a href="menu/pasta/napoliten">Ναπολιτέν</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/carbonara">Καρμπονάρα</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/ala-krem">Αλα Κρεμ</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/special">Special</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/four-cheese">Με 4 τυριά</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/bolonez">Μπολονέζ</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/chicken">Κοτομακαρονάδα</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/dino">Dino</a></li>
+                                        <li className="menu-item"><Link href="menu/pasta/napoliten">Ναπολιτέν</Link>
+                                        </li>
+                                        <li className="menu-item"><Link href="menu/pasta/carbonara">Καρμπονάρα</Link>
+                                        </li>
+                                        <li className="menu-item"><Link href="menu/pasta/ala-krem">Αλα Κρεμ</Link></li>
+                                        <li className="menu-item"><Link href="menu/pasta/special">Special</Link></li>
+                                        <li className="menu-item"><Link href="menu/pasta/four-cheese">Με 4 τυριά</Link>
+                                        </li>
+                                        <li className="menu-item"><Link href="menu/pasta/bolonez">Μπολονέζ</Link></li>
+                                        <li className="menu-item"><Link href="menu/pasta/chicken">Κοτομακαρονάδα</Link>
+                                        </li>
+                                        <li className="menu-item"><Link href="menu/pasta/dino">Dino</Link></li>
                                     </ul>
                                 </li>
                                 <li className="menu-item menu-item-has-children">
-                                    <a href="menu#pastaitaliana">Ζυμαρικά Ιταλιάνα</a>
+                                    <Link href="menu#pastaitaliana">Ζυμαρικά Ιταλιάνα</Link>
                                     <ul className="submenu">
-                                        <li className="menu-item"><a href="menu/pasta/carbonara-italian">Καρμπονάρα</a>
+                                        <li className="menu-item"><Link
+                                            href="menu/pasta/carbonara-italian">Καρμπονάρα</Link>
                                         </li>
-                                        <li className="menu-item"><a href="menu/pasta/polo">Polo (Κοτόπουλο)</a></li>
-                                        <li className="menu-item"><a href="menu/pasta/funchi">Funchi (Με μανιτάρια)</a>
+                                        <li className="menu-item"><Link href="menu/pasta/polo">Polo (Κοτόπουλο)</Link>
+                                        </li>
+                                        <li className="menu-item"><Link href="menu/pasta/funchi">Funchi (Με
+                                            μανιτάρια)</Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="menu#salad">Σαλάτες</a>
+                                    <Link href="menu#salad">Σαλάτες</Link>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="menu#penirli">Πεϊνιρλί</a>
+                                    <Link href="menu#penirli">Πεϊνιρλί</Link>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="menu#kaltsone">Καλτσονε</a>
+                                    <Link href="menu#kaltsone">Καλτσονε</Link>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="menu#glosses">Γλώσσες</a>
+                                    <Link href="menu#glosses">Γλώσσες</Link>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="menu#strountel">Στρουντελ</a>
+                                    <Link href="menu#strountel">Στρουντελ</Link>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="menu#drinks">Αναψυκτικά - Μπύρες</a>
+                                    <Link href="menu#drinks">Αναψυκτικά - Μπύρες</Link>
                                 </li>
                             </ul>
                         </li>
 
                         <li className="menu-item ">
-                            <a href="about">Σχετικά με εμάς </a>
+                            <Link href="about">Σχετικά με εμάς </Link>
                         </li>
 
                         <li className="menu-item  ">
-                            <a href="blog"> Blog</a>
+                            <Link href="blog"> Blog</Link>
                         </li>
                         <li className="menu-item">
-                            <a href="contact"> Επικοινωνία</a>
+                            <Link href="contact"> Επικοινωνία</Link>
                         </li>
                     </ul>
 
                 </div>
-
+                <div className="aside-overlay aside-trigger"></div>
             </aside>
-            <div className="aside-overlay aside-trigger"></div>
         </Fragment>
-    )
+)
 }

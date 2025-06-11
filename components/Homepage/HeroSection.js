@@ -32,11 +32,11 @@ export function HeroSection() {
                                 <h5 className="custom-primary"> {messages('about.label')}</h5>
                                 <p className="subtitle">{messages('about.text')}</p>
 
-                                <a href="about" className="btn-custom"> {messages('about.title')}</a>
+                                <Link href="about" className="btn-custom"> {messages('about.title')}</Link>
                             </div>
                         </div>
                         <div className="col-lg-6 mb-lg-30 ct-single-img-wrapper my-2">
-                            <Image className="img-fluid" src="/img/auth.webp" width={600} height={600} alt="Pizza Vasiliko"/>
+                            <Image className="img-fluid" src={`${process.env.BASE_PATH}/img/auth.webp`} width={600} height={600} alt="Pizza Vasiliko"/>
                         </div>
 
                     </div>
