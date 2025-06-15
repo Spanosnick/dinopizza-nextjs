@@ -451,20 +451,7 @@
 })(jQuery);
 
 
-const changeLanguage = (value, str='') => {
-  $.ajax({
-    type: "POST",
-    url: `${str}changeLanguage.php`,
-    data: {
-      language: value
-    },
-    success: function(data) {
-      console.log(data);
-      window.location.reload();
-    }
-  });
-  console.log(value);
-}
+
 
 function toggleActiveClass() {
   // Get all elements with class 'customize-size'
@@ -487,12 +474,12 @@ let pizzaSize = 'medium';
 let productItems = [];
 
 function calculatePizza() {
-  console.log('Calculating pizza.......');
+
   const pizzaPrice = document.getElementById('customPizzaPrice')
 
   const selectedItems = getSelectedItems();
   const numberOfItems = selectedItems.length;
-  console.log('Number of items: ', numberOfItems);
+
   if (pizzaSize === 'medium' && numberOfItems === 0) {
     pizzaPrice.innerHTML = '6.50 €';
   } else if (pizzaSize === 'mediumPhil' && numberOfItems === 0) {
@@ -554,11 +541,11 @@ function calculatePizza() {
   }
 
 
-  console.log(selectedItems);
+
 }
 
 function selectPizzaSize(size){
-    console.log('Selected pizza size: ', size);
+
     pizzaSize = size;
   calculatePizza()
 }
@@ -573,7 +560,6 @@ function getSelectedItems() {
     }
   });
 
-  console.log(selectedItems); // You can replace this with any action you want to perform with the selected items
   return selectedItems;
 }
 

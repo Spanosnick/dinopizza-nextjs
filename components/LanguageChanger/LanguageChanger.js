@@ -5,9 +5,6 @@ import {useLocale} from 'next-intl';
 
 const locales = ['en', 'el'];
 
-function changeLanguage(language, path) {
-    console.log(`Changing language to ${language} and path to ${path}`);
-}
 
 function LanguageChanger() {
     const router = useRouter();
