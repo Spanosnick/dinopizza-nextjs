@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function renderMenu(category,locale) {
     if (!category.subcategories && category.showProducts === false) {
-        console.log(`Rendering category ${category.name[locale]} `);
+
         return (
             <li key={category.id} className="menu-item">
                 <Link href={`/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
             </li>
         );
     } else if(!category.subcategories && category.showProducts === true)  {
-        console.log(category)
+
         return (
             <li key={category.id} className="menu-item menu-item-has-children">
                 <Link href={`/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
