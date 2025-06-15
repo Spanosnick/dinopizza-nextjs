@@ -105,37 +105,26 @@
         "message": "Message"
       },
       "sendButton": "Send Message"
-    },
-    "navigation": {
-      "home": "Home",
-      "about": "About Us",
-      "menu": "Menu",
-      "wholeMenu": "Whole Menu",
-      "pizza": "Pizzas",
-      "pasta": "Pasta",
-      "salad": "Salads",
-      "penirli": "Peinirli",
-      "calzone": "Calzone",
-      "tongues": "Tongues",
-      "strudel": "Strudel",
-      "drinks": "Drinks - Beers",
-      "blog": "Blog",
-      "contact": "Contact",
-      "createYourPizza": "Create your own pizza!"
-    },
-    "cookies": {
-      "settings": "Cookie Settings",
-      "description": "We use cookies to provide you with the best possible experience. They also allow us to analyze user behavior in order to constantly improve the website for you.",
-      "acceptAll": "Accept All",
-      "acceptSelection": "Accept Selection",
-      "rejectAll": "Reject All",
-      "categories": {
-        "necessary": "Necessary",
-        "analytics": "Analytics",
-        "preferences": "Preferences",
-        "marketing": "Marketing"
-      }
     }
+  },
+  "Navigation": {
+    "home": "Homepage",
+    "menu": "Menu",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "home": "Homepage",
+    "menu": "Menu",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "usefulLinks": "Useful Links",
+    "createPizza": "Create Your Own Pizza",
+    "privacy": "Privacy Policy",
+    "socialMediaText": "Follow us on social media to never miss a deal!",
+    "followUs": "Follow Us"
   }
 }
 

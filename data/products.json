@@ -1,0 +1,1260 @@
+{
+  "categories": [
+    {
+      "id": "pizzas",
+      "slug": {
+        "en": "pizzas",
+        "el": "pitses"
+      },
+      "name": {
+        "en": "Pizzas",
+        "el": "Πίτσες"
+      },
+      "subcategories": [
+        {
+          "id": "special",
+          "slug": {
+            "en": "special",
+            "el": "special"
+          },
+          "name": {
+            "en": "Special",
+            "el": "Σπέσιαλ"
+          },
+          "products": [
+            {
+              "id": "dino-special",
+              "slug": {
+                "en": "dino-special",
+                "el": "dino-special"
+              },
+              "name": {
+                "en": "DINO SPECIAL",
+                "el": "DINO SPECIAL"
+              },
+              "description": {
+                "en": "Sauce, sujuk, pepperoni, ham, mushrooms, bacon, Frankfurt sausage, peppers, kefalotyri cheese, cheese blend",
+                "el": "Σάλτσα, σουτζούκι, πεπερόνε, ζαμπόν, μανιτάρια, μπέικον, λουκάνικο φρανκφούρτης, πιπεριά, κεφαλοτύρι, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+                "image" : "img/pizza/special.webp"
+            },
+            {
+              "id": "ala-creme",
+              "slug": {
+                "en": "ala-creme",
+                "el": "alakrem"
+              },
+              "name": {
+                "en": "ALA CREME",
+                "el": "ΑΛΑ ΚΡΕΜ "
+              },
+              "description": {
+                "en": "Cream, mushrooms, bacon, tomato, cheese blend",
+                "el": "Κρέμα γάλακτος, μανιτάρια, μπέικον, ντομάτα, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7.7
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 9.4
+                },
+                {
+                  "size": "big",
+                  "price": 11.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 14.5
+                }
+              ],
+              "image" : "img/pizza/ala-krem.webp"
+            },
+            {
+              "id": "chicken",
+              "slug": {
+                "en": "chicken",
+                "el": "kotopoulo"
+              },
+              "name": {
+                "en": "WITH CHICKEN",
+                "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+              },
+              "description": {
+                "en": "Sauce, chicken, onion, tomato, kefalotyri cheese, cheese blend",
+                "el": "Σάλτσα, κοτόπουλο, κρεμμύδι, ντομάτα, κεφαλοτύρι, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10.00
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/chichen.webp"
+            },
+            {
+              "id": "cold-cut",
+              "slug": {
+                "en": "cold-cut",
+                "el": "alantikon"
+              },
+              "name": {
+                "en": "COLD CUTS",
+                "el": "ΑΛΛΑΝΤΙΚΩΝ "
+              },
+              "description": {
+                "en": "Sauce, pepperoni, ham, air-dried salami, bacon, Frankfurt sausage, cheese blend",
+                "el": "Σάλτσα, πεπερόνε, ζαμπόν, σαλάμι αέρος, μπέικον, λουκάνικο Φρανκφούρτης, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10.00
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/coldcut.webp"
+            },
+            {
+              "id": "barbeque",
+              "slug": {
+                "en": "barbeque",
+                "el": "barbekiou"
+              },
+              "name": {
+                "en": "BARBEQUE ",
+                "el": "ΜΠΑΡΜΠΕΚΙΟΥ "
+              },
+              "description": {
+                "en": "Sauce, ham, bacon, barbecue sauce, cheese blend",
+                "el": "Σάλτσα, ζαμπόν, μπέικον, σως μπάρμπεκιου, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 8.7
+                },
+                {
+                  "size": "big",
+                  "price": 10.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 13.5
+                }
+              ],
+              "image" : "img/pizza/barbeque.webp"
+            },
+            {
+              "id": "chicken-barbeque",
+              "slug": {
+                "en": "chicken-barbeque",
+                "el": "kotopoulo-barbekiou"
+              },
+              "name": {
+                "en": "CHICKEN BARBECUE  ",
+                "el": "ΚΟΤΟΠΟΥΛΟ ΜΠΑΡΜΠΕΚΙΟΥ  "
+              },
+              "description": {
+                "en": "Sauce, ham, bacon, barbecue sauce, cheese blend",
+                "el": "Σάλτσα, κοτόπουλο, μπέικον, σως μπάρμπεκιου, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10.0
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/chichen-barbeque.webp"
+            },
+            {
+              "id": "chicken-ala-krem",
+              "slug": {
+                "en": "chicken-ala-krem",
+                "el": "kotopoulo-alakrem"
+              },
+              "name": {
+                "en": "CHICKEN ALA CREME  ",
+                "el": "ΚΟΤΟΠΟΥΛΟ ΑΛΑ ΚΡΕΜ  "
+              },
+              "description": {
+                "en": "Cream, mushrooms, chicken, peppers, kefalotyri cheese, cheese blend",
+                "el": "Κρέμα γάλακτος, μανιτάρια, κοτόπουλο, πιπεριά, κεφαλοτύρι, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10.0
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/chicken-ala-krem.webp"
+            }
+          ]
+        },
+        {
+          "id": "spicy",
+          "slug": {
+            "en": "spicy",
+            "el": "pikantikes"
+          },
+          "name": {
+            "en": "Spicy",
+            "el": "Πικάντικες"
+          },
+          "products": [
+            {
+              "id": "vezoubios",
+              "slug": {
+                "en": "vesuvius",
+                "el": "vezoubios"
+              },
+              "name": {
+                "en": "VESUVIUS ",
+                "el": "ΒΕΖΟΥΒΙΟΣ "
+              },
+              "description": {
+                "en": "Sauce, spicy, sujuk, pepperoni, bacon, Frankfurt sausage, cheese blend",
+                "el": "Σάλτσα, καυτερό, σουτζούκι, πεπερόνε, μπέικον, λουκάνικο Φρανκφούρτης, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/vezoubios.webp"
+            },
+            {
+              "id": "spicy",
+              "slug": {
+                "en": "spicy",
+                "el": "pikantiki"
+              },
+              "name": {
+                "en": "SPICY ",
+                "el": "ΠΙΚΑΝΤΙΚΗ"
+              },
+              "description": {
+                "en": "Sauce, spicy, sujuk, pepperoni, bacon, kefalotyri cheese, cheese blend",
+                "el": "Σάλτσα, καυτερό, σουτζούκι, πεπερόνε, μπέικον, κεφαλοτύρι, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/spicy.webp"
+            },
+            {
+              "id": "mexican",
+              "slug": {
+                "en": "mexican",
+                "el": "mexikaniki"
+              },
+              "name": {
+                "en": "MEXICAN",
+                "el": "ΜΕΞΙΚΑΝΙΚΗ"
+              },
+              "description": {
+                "en": "Sauce, spicy, sujuk, onion, country sausage, peppers, cheese blend",
+                "el": "Σάλτσα, καυτερό, σουτζούκι, κρεμμύδι, χωριάτικο λουκάνικο, πιπεριά, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/mexican.webp"
+            },
+            {
+              "id": "politiki",
+              "slug": {
+                "en": "city-style",
+                "el": "politiki"
+              },
+              "name": {
+                "en": "CITY STYLE",
+                "el": "ΠΟΛΙΤΙΚΗ"
+              },
+              "description": {
+                "en": "Sauce, spicy, sujuk, pepperoni, egg, bacon, Frankfurt sausage, cheese blend",
+                "el": "Σάλτσα, καυτερό, σουτζούκι, πεπερόνε, αυγό, μπέικον, λουκάνικο φρανκφούρτης, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/politiki.webp"
+            }
+          ]
+        },
+        {
+          "id": "vegeterian",
+          "slug": {
+            "en": "vegeterian",
+            "el": "xortofagiki"
+          },
+          "name": {
+            "en": "vegeterian",
+            "el": "Χορτοφαγικές"
+          },
+          "products": [
+            {
+              "id": "margarita",
+              "slug": {
+                "en": "margarita",
+                "el": "margarita"
+              },
+              "name": {
+                "en": "MARGARITA ",
+                "el": "ΜΑΡΓΑΡΙΤΑ "
+              },
+              "description": {
+                "en": "Sauce, tomato, cheese blend",
+                "el": "Σάλτσα, ντομάτα, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7.0
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 8.7
+                },
+                {
+                  "size": "big",
+                  "price": 10.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 13.5
+                }
+              ],
+              "image" : "img/pizza/margarita.webp"
+            },
+            {
+              "id": "xoriatiki",
+              "slug": {
+                "en": "greek-village",
+                "el": "xoriatiki"
+              },
+              "name": {
+                "en": "GREEK VILLAGE  ",
+                "el": "ΧΩΡΙΑΤΙΚΗ "
+              },
+              "description": {
+                "en": "Feta, onion, tomato, olives, peppers, oregano, cheese blend",
+                "el": "Φέτα, κρεμμύδι, ντομάτα, ελιές, πιπεριά, ρίγανη,μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10.0
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/xoriatiki.webp"
+            },
+            {
+              "id": "agrotiki",
+              "slug": {
+                "en": "country-side",
+                "el": "agrotiki"
+              },
+              "name": {
+                "en": "COUNTRYSIDE",
+                "el": "ΑΓΡΟΤΙΚΗ "
+              },
+              "description": {
+                "en": "Sauce, mushrooms, onion, tomato, olives, peppers, cheese blend",
+                "el": "Σάλτσα, μανιτάρια, κρεμμύδι, ντομάτα, ελιές, πιπεριά, μείγμα τυριών"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 10.0
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
+                }
+              ],
+              "image" : "img/pizza/agrotiki.webp"
+            },
+            {
+              "id": "four-cheese",
+              "slug": {
+                "en": "four-cheese",
+                "el": "tessera-tyria"
+              },
+              "name": {
+                "en": "WITH FOUR CHEESES",
+                "el": "ΜE ΤΕΣΣΕΡΑ ΤΥΡΙΑ "
+              },
+              "description": {
+                "en": "Sauce, tuna, tomato, kefalotyri, gouda, Edam, mozzarella",
+                "el": "Σάλτσα, τόνος, ντομάτα, κεφαλοτύρι, γκούντα, ένταμ, μοτσαρέλα"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7.7
+                },
+                {
+                  "size": "medium-fil",
+                  "price": 9.4
+                },
+                {
+                  "size": "big",
+                  "price": 11.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 14.5
+                }
+              ],
+              "image" : "img/pizza/four-cheese.webp"
+            }
+          ]
+        },
+        {
+          "id": "sweet",
+          "slug": {
+            "en": "sweet",
+            "el": "glykia"
+          },
+          "name": {
+            "en": "Sweet",
+            "el": "Γλυκές"
+          },
+          "products": [
+            {
+              "id": "oreo",
+              "slug": {
+                "en": "margarita",
+                "el": "sweet"
+              },
+              "name": {
+                "en": "SWEET ",
+                "el": "ΓΛΥΚΙΑ "
+              },
+              "description": {
+                "en": " Chocolate, Oreo cookie, white chocolate crispy balls",
+                "el": "Σοκολάτα, μπισκότο Oreo, crispy balls λευκής σοκολάτας"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7.0
+                }
+              ],
+              "image" : "img/pizza/sweet.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pastas",
+        "slug": {
+            "en": "baked-pastas",
+            "el": "zymarika-fournou"
+        },
+        "name": {
+            "en": "Baked Pastas",
+            "el": "Ζυμαρικά Φούρνου"
+        },
+      "showProducts": true,
+      "products": [
+        {
+          "id": "napoliten",
+          "slug": {
+            "en": "napoliten",
+            "el": "napolitana"
+          },
+          "name": {
+            "en": "NAPOLITAN",
+            "el": "ΝΑΠΟΛΙΤΕΝ"
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, napoliten sauce, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, σάλτσα νάπολη, μείγμα τυριών"
+          },
+          "price": 5.5,
+            "image": "img/pasta/napoliten.webp"
+        },
+        {
+          "id": "carbonara",
+          "slug": {
+            "en": "carbonara",
+            "el": "karbonara"
+          },
+          "name": {
+            "en": "CARBONARA",
+            "el": "ΚΑΡΜΠΟΝΑΡΑ"
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, ham, cream, pepper, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, ζαμπόν, κρέμα γάλακτος, πιπεριά, μείγμα τυριών"
+          },
+          "price": 6.3,
+          "image": "img/pasta/carbonara.webp"
+        },
+        {
+          "id": "ala-krem",
+          "slug": {
+            "en": "ala-krem",
+            "el": "alakrem"
+          },
+          "name": {
+            "en": "ALA CREME",
+            "el": "ΑΛΑ ΚΡΕΜ "
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, cream, bacon, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, μπέικον, μείγμα τυριών"
+          },
+          "price": 6.3,
+          "image": "img/pasta/ala-krem.webp"
+        },
+        {
+          "id": "special",
+          "slug": {
+            "en": "special",
+            "el": "special"
+          },
+          "name": {
+            "en": "SPECIAL",
+            "el": "SPECIAL "
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, napoliten sauce, mushrooms, ham, peppers, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, σάλτσα νάπολη, μανιτάρια, ζαμπόν, πιπεριές, μείγμα τυριών"
+          },
+          "price": 6.3,
+          "image": "img/pasta/special.webp"
+        },
+        {
+          "id": "four-cheese",
+          "slug": {
+            "en": " four-cheese",
+            "el": "me-tessera-tyria"
+          },
+          "name": {
+            "en": "FOUR CHEESE ",
+            "el": "ΜΕ 4 ΤΥΡΙΑ  "
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, cream, roquefort, gouda, edam, mozzarella",
+            "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, ροκφόρ, γκούντα, ένταμ, μοτσαρέλα"
+          },
+          "price": 6.3,
+          "image": "img/pasta/four-cheese.webp"
+        },
+        {
+          "id": "bolonez",
+          "slug": {
+            "en": "bolonez",
+            "el": "mpolonez"
+          },
+          "name": {
+            "en": "BOLOGNESE ",
+            "el": "ΜΠΟΛΟΝΕΖ  "
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, minced beef, napoliten sauce, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, κιμάς μοσχαρίσιος, σάλτσα νάπολη, μείγμα τυριών"
+          },
+          "price": 6.3,
+          "image": "img/pasta/bolonez.webp"
+        },
+        {
+          "id": "chicken-pasta",
+          "slug": {
+            "en": "chicken-pasta",
+            "el": "mpolonez"
+          },
+          "name": {
+            "en": "CHICKEN PASTA  ",
+            "el": "ΚΟΤΟΜΑΚΑΡΟΝΑΔΑ  "
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, mushrooms, chicken, cream, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, μανιτάρια, κοτόπουλο, κρέμα γάλακτος, μείγμα τυριών"
+          },
+          "price": 6.5,
+          "image": "img/pasta/chicken.webp"
+        },
+        {
+          "id": "dino",
+          "slug": {
+            "en": "dino",
+            "el": "dino"
+          },
+          "name": {
+            "en": "DINO",
+            "el": "DINO"
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, mushrooms, ham, bacon, cream, cheese blend",
+            "el": "Σπαγγέτι, κεφαλοτύρι, μανιτάρια, ζαμπόν, μπέικον, κρέμα γάλακτος, μείγμα τυριών"
+          },
+          "price": 6.5,
+          "image": "img/pasta/dino.webp"
+        }
+      ]
+    },
+    {
+      "id": "pasta-italiana",
+      "slug": {
+        "en": "pasta-italiana",
+        "el": "zymarika-italiana"
+      },
+      "name": {
+        "en": "Italian Pasta",
+        "el": "Ζυμαρικά Ιταλιάνα"
+      },
+      "showProducts": true,
+      "products": [
+        {
+          "id": "carbonara-italiana",
+          "slug": {
+            "en": "carbonara-italiana",
+            "el": "karbonara-italiana"
+          },
+          "name": {
+            "en": "CARBONARA",
+            "el": "ΚΑΡΜΠΟΝΑΡΑ"
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, bacon, cream, parmesan",
+            "el": "Σπαγγέτι, κεφαλοτύρι, μπέικον, κρέμα γάλακτος, παρμεζάνα"
+          },
+          "price": 6.3,
+            "image": "img/pasta/carbonara-italian.webp"
+        },
+        {
+          "id": "polo",
+          "slug": {
+            "en": "polo-chichen",
+            "el": "polo-kotopoulo"
+          },
+          "name": {
+            "en": "POLO (CHICKEN)",
+            "el": "POLO (ΚΟΤΟΠΟΥΛΟ) "
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, chicken, mushrooms, cream, parmesan",
+            "el": "Σπαγγέτι, κεφαλοτύρι, κοτόπουλο, μανιτάρια, κρέμα γάλακτος, παρμεζάνα"
+          },
+          "price": 6.5,
+          "image": "img/pasta/polo.webp"
+        },
+        {
+          "id": "funchi-pasta",
+          "slug": {
+            "en": "funchi-pasta",
+            "el": "funchi-pasta"
+          },
+          "name": {
+            "en": "FUNCHI PASTA",
+            "el": "FUNCHI PASTA"
+          },
+          "description": {
+            "en": "Spaghetti, kefalotyri cheese, cream, mushrooms, parmesan",
+            "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, μανιτάρια, παρμεζάνα"
+          },
+          "price": 6.3,
+          "image": "img/pasta/funchi.webp"
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "slug": {
+        "en": "salads",
+        "el": "salates"
+      },
+      "name": {
+        "en": "Salads",
+        "el": "Σαλάτες"
+      },
+      "showProducts": false,
+      "products": [
+        {
+          "id": "chef",
+          "slug": {
+            "en": "chef-salad",
+            "el": "salata-sef"
+          },
+          "name": {
+            "en": "CHEF SALAD",
+            "el": "ΣΑΛΑΤΑ ΣΕΦ"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, tomato, ham, edam cheese, egg, chef sauce",
+            "el": "Μαρούλι, αγγούρι, ντομάτα, ζαμπόν, ένταμ, αυγό, σως σεφ"
+          },
+          "price": 6.3,
+          "image": "img/salads/chef.webp"
+        },
+        {
+          "id": "tuna",
+          "slug": {
+            "en": "tuna-salad",
+            "el": "salata-tonos"
+          },
+          "name": {
+            "en": "TUNA SALAD",
+            "el": "ΣΑΛΑΤΑ ΤΟΝΟΣ"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, onion, crouton, tuna, mayonnaise",
+            "el": "Μαρούλι, αγγούρι, κρεμμύδι, κρουτόν, τόνος, μαγιονέζα"
+          },
+          "price": 6.5,
+          "image": "img/salads/tuna.webp"
+        },
+        {
+          "id": "caesar",
+          "slug": {
+            "en": "caesar-salad",
+            "el": "salata-kaisar"
+          },
+          "name": {
+            "en": "CAESAR SALAD",
+            "el": "ΣΑΛΑΤΑ CAESAR"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, corn, croutons, chicken, edam cheese, caesar dressing",
+            "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, κοτόπουλο, ένταμ, σως καίσαρα"
+          },
+          "price": 6.5,
+          "image": "img/salads/caesar.webp"
+        },
+        {
+          "id": "parmezan",
+          "slug": {
+            "en": "parmesan-bacon-salad",
+            "el": "salata-parmezan-bacon"
+          },
+          "name": {
+            "en": "PARMESAN-BACON",
+            "el": "ΠΑΡΜΕΖΑΝ-ΜΠΕΪΚΟΝ"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, corn, croutons, bacon, parmesan flakes, vinaigrette",
+            "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, μπέικον, νιφάδες παρμεζάνας, βινεγκρέτ"
+          },
+          "price": 6.3,
+          "image": "img/salads/parmezan.webp"
+        },
+        {
+          "id": "parmezan-chicken",
+          "slug": {
+            "en": "parmesan-chicken-salad",
+            "el": "salata-parmezan-kotopoulo"
+          },
+          "name": {
+            "en": "PARMESAN-CHICKEN",
+            "el": "ΠΑΡΜΕΖΑΝ-ΚΟΤΟΠΟΥΛΟ"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, corn, croutons, chicken, parmesan flakes, vinaigrette",
+            "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, κοτόπουλο, νιφάδες παρμεζάνας, βινεγκρέτ"
+          },
+          "price": 6.5,
+          "image": "img/salads/parmezan-chicken.webp"
+        },
+        {
+          "id": "fasting",
+          "slug": {
+            "en": "fasting-salad",
+            "el": "salata-nistisimi"
+          },
+          "name": {
+            "en": "FASTING",
+            "el": "ΝΗΣΤΙΣΙΜΗ"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, corn, croutons, parmesan flakes, vinaigrette",
+            "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, νιφάδες παρμεζάνας, βινεγκρέτ"
+          },
+          "price": 6.0,
+          "image": "img/salads/fasting.webp"
+        },
+        {
+          "id": "chicken",
+          "slug": {
+            "en": "chicken-salad",
+            "el": "salata-kotopoulo"
+          },
+          "name": {
+            "en": "CHICKEN SALAD",
+            "el": "ΚΟΤΟΣΑΛΑΤΑ"
+          },
+          "description": {
+            "en": "Lettuce, cucumber, tomato, chicken, edam cheese, mayonnaise",
+            "el": "Μαρούλι, αγγούρι, ντομάτα, κοτόπουλο, ένταμ, μαγιονέζα"
+          },
+          "price": 6.5,
+          "image": "img/salads/chicken.webp"
+        }
+      ]
+    },
+    {
+      "id": "kaltsone",
+      "slug": {
+        "en": "calzone",
+        "el": "kaltsone"
+      },
+      "name": {
+        "en": "Calzone",
+        "el": "Καλτσόνε"
+      },
+      "showProducts": false,
+      "products": [
+        {
+          "id": "dino",
+          "slug": {
+            "en": "dino-special",
+            "el": "dino-eidiko"
+          },
+          "name": {
+            "en": "DINO SPECIAL",
+            "el": "DINO SPECIAL"
+          },
+          "description": {
+            "en": "Sauce, ham, pepperoni, feta cheese, tomato, kefalotyri cheese, cheese blend",
+            "el": "Σάλτσα, ζαμπόν, πεπερόνε, φέτα, ντομάτα, κεφαλοτύρι, μείγμα τυριών"
+          },
+          "price": 5.5,
+          "image": "img/kaltsone/dino.webp"
+        },
+        {
+          "id": "xoriatiki",
+          "slug": {
+            "en": "greek-calzone",
+            "el": "xoriatiki-kaltsone"
+          },
+          "name": {
+            "en": "GREEK VILLAGE",
+            "el": "ΧΩΡΙΑΤΙΚΗ"
+          },
+          "description": {
+            "en": "Sauce, feta cheese, onion, tomato, pepper, kefalotyri cheese, cheese blend",
+            "el": "Σάλτσα, φέτα, κρεμμύδι, ντομάτα, πιπεριά, κεφαλοτύρι, μείγμα τυριών"
+          },
+          "price": 5.5,
+          "image": "img/kaltsone/xoriatiki.webp"
+        },
+        {
+          "id": "chicken",
+          "slug": {
+            "en": "chicken-calzone",
+            "el": "kaltsone-me-kotopoulo"
+          },
+          "name": {
+            "en": "WITH CHICKEN",
+            "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+          },
+          "description": {
+            "en": "Sauce, chicken, tomato, kefalotyri cheese, cheese blend",
+            "el": "Σάλτσα, κοτόπουλο, ντομάτα, κεφαλοτύρι, μείγμα τυριών"
+          },
+          "price": 5.5,
+          "image": "img/kaltsone/chicken.webp"
+        },
+        {
+          "id": "spicy",
+          "slug": {
+            "en": "spicy-calzone",
+            "el": "pikantiki-kaltsone"
+          },
+          "name": {
+            "en": "SPICY",
+            "el": "ΠΙΚΑΝΤΙΚΗ"
+          },
+          "description": {
+            "en": "Sauce, sujuk, pepperoni, bacon, kefalotyri cheese, cheese blend",
+            "el": "Σάλτσα, σουτζούκι, πεπερόνε, μπέικον, κεφαλοτύρι, μείγμα τυριών"
+          },
+          "price": 5.5,
+          "image": "img/kaltsone/spicy.webp"
+        }
+      ]
+    },
+    {
+      "id": "penirli",
+      "slug": {
+        "en": "penirli",
+        "el": "penirli"
+      },
+      "name": {
+        "en": "Penirli",
+        "el": "Πενιρλί"
+      },
+      "showProducts": false,
+      "products": [
+        {
+          "id": "special",
+          "slug": {
+            "en": "special-penirli",
+            "el": "eidiko-penirli"
+          },
+          "name": {
+            "en": "SPECIAL",
+            "el": "SPECIAL"
+          },
+          "description": {
+            "en": "Ham, bacon, cheese blend",
+            "el": "Ζαμπόν, μπέικον, μείγμα τυριών"
+          },
+          "price": 3.6,
+          "image": "img/penirli/special.webp"
+        },
+        {
+          "id": "chicken",
+          "slug": {
+            "en": "chicken-penirli",
+            "el": "penirli-me-kotopoulo"
+          },
+          "name": {
+            "en": "WITH CHICKEN",
+            "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+          },
+          "description": {
+            "en": "Chicken, mushrooms, cheese blend",
+            "el": "Κοτόπουλο, μανιτάρια, μείγμα τυριών"
+          },
+          "price": 3.9,
+          "image": "img/penirli/chicken.webp"
+        },
+        {
+          "id": "xoriatiki",
+          "slug": {
+            "en": "greek-penirli",
+            "el": "xoriatiko-penirli"
+          },
+          "name": {
+            "en": "GREEK",
+            "el": "ΧΩΡΙΑΤΙΚΟ"
+          },
+          "description": {
+            "en": "Feta cheese, onion, tomato, pepper, oregano, cheese blend",
+            "el": "Φέτα, κρεμμύδι, ντομάτα, πιπεριά, ρίγανη, μείγμα τυριών"
+          },
+          "price": 3.9,
+          "image": "img/penirli/xoriatiki.webp"
+        },
+        {
+          "id": "spicy",
+          "slug": {
+            "en": "spicy-penirli",
+            "el": "pikantiko-penirli"
+          },
+          "name": {
+            "en": "SPICY",
+            "el": "ΠΙΚΑΝΤΙΚΟ"
+          },
+          "description": {
+            "en": "Sujuk, pepperoni, bacon, cheese blend",
+            "el": "Σουτζούκι, πεπερόνε, μπέικον, μείγμα τυριών"
+          },
+          "price": 3.9,
+          "image": "img/penirli/spicy.webp"
+        }
+      ]
+    },
+    {
+      "id": "stroundel",
+      "slug": {
+        "en": "stroundel",
+        "el": "stroundel"
+      },
+      "name": {
+        "en": "Stroundel",
+        "el": "Στραουντελ"
+      },
+      "showProducts": false,
+      "products": [
+        {
+          "id": "garlic",
+          "slug": {
+            "en": "garlic-bread",
+            "el": "stroundel-skombo"
+          },
+          "name": {
+            "en": "GARLIC BREAD (8 PCS)",
+            "el": "ΣΚΟΡΔΟΨΩΜΙ (8 ΤΜΗΜΑΤΑ)"
+          },
+          "description": {
+            "en": "Cheese blend, garlic",
+            "el": "Μείγμα τυριών, σκόρδο"
+          },
+          "price": 4.3,
+          "image": "img/stroundel/garlic.webp"
+        },
+        {
+          "id": "olive",
+          "slug": {
+            "en": "olive-bread",
+            "el": "stroundel-elies"
+          },
+          "name": {
+            "en": "OLIVE BREAD (8 PCS)",
+            "el": "ΨΩΜΙ ΜΕ ΕΛΙΕΣ (8 ΤΜΗΜΑΤΑ)"
+          },
+          "description": {
+            "en": "Cheese blend, olives",
+            "el": "Μείγμα τυριών, ελιές"
+          },
+          "price": 5.0,
+          "image": "img/stroundel/olive.webp"
+        },
+        {
+          "id": "dino",
+          "slug": {
+            "en": "dino-stroundel",
+            "el": "stroundel-dino"
+          },
+          "name": {
+            "en": "DINO (8 PCS)",
+            "el": "DINO (8 ΤΜΗΜΑΤΑ)"
+          },
+          "description": {
+            "en": "Cheese blend, ham, bacon",
+            "el": "Μείγμα τυριών, ζαμπόν, μπέικον"
+          },
+          "price": 5.0,
+          "image": "img/stroundel/dino.webp"
+        }
+      ]
+    },
+    {
+      "id": "glosses",
+      "slug": {
+        "en": "dino-glosses",
+        "el": "glosses"
+      },
+      "name": {
+        "en": "Dino Glosses",
+        "el": "Dino Γλώσσες"
+      },
+      "showProducts": false,
+      "products": [
+        {
+          "id": "zambon",
+          "slug": {
+            "en": "ham-turkey-glosses",
+            "el": "glossa-me-zambon-galopoula"
+          },
+          "name": {
+            "en": "WITH HAM OR TURKEY",
+            "el": "ΜΕ ΖΑΜΠΟΝ 'Η ΓΑΛΟΠΟΥΛΑ"
+          },
+          "description": {
+            "en": "Dino sauce, ham or turkey, tomato, cheese blend",
+            "el": "Σως Dino, ζαμπόν ή γαλοπούλα, ντομάτα, μείγμα τυριών"
+          },
+          "price": 2.7,
+          "image": "img/glosses/zambon.webp"
+        },
+        {
+          "id": "peperone",
+          "slug": {
+            "en": "pepperoni-glosses",
+            "el": "glossa-me-peperone"
+          },
+          "name": {
+            "en": "WITH PEPPERONI",
+            "el": "ΜΕ ΠΕΠΕΡΟΝΕ"
+          },
+          "description": {
+            "en": "Dino sauce, pepperoni, tomato, cheese blend",
+            "el": "Σως Dino, πεπερόνε, ντομάτα, μείγμα τυριών"
+          },
+          "price": 2.7,
+          "image": "img/glosses/peperone.webp"
+        },
+        {
+          "id": "chicken",
+          "slug": {
+            "en": "chicken-glosses",
+            "el": "glossa-me-kotopoulo"
+          },
+          "name": {
+            "en": "WITH CHICKEN",
+            "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+          },
+          "description": {
+            "en": "Dino sauce, chicken, tomato, cheese blend",
+            "el": "Σως Dino, κοτόπουλο, ντομάτα, μείγμα τυριών"
+          },
+          "price": 2.9,
+          "image": "img/glosses/chicken.webp"
+        },
+        {
+          "id": "dino",
+          "slug": {
+            "en": "dino-glosses",
+            "el": "glossa-dino"
+          },
+          "name": {
+            "en": "DINO",
+            "el": "DINO"
+          },
+          "description": {
+            "en": "Dino sauce, ham, pepperoni, bacon, tomato, cheese blend",
+            "el": "Σως Dino, ζαμπόν, πεπερόνε, μπέικον, ντομάτα, μείγμα τυριών"
+          },
+          "price": 3.1,
+          "image": "img/glosses/dino.webp"
+        }
+      ]
+    }
+  ]
+}
