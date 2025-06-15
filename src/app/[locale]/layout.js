@@ -8,6 +8,8 @@ import Footer from "@/components/Footer/Footer";
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '../../i18n/routing';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 export const metadata = {
@@ -36,6 +38,8 @@ export default async function  RootLayout({children,params}) {
             <Navigation/>
             <LanguageChanger/>
             {children}
+            <SpeedInsights />
+            <Analytics />
         </NextIntlClientProvider>
         <Footer/>
         <Script src="/js/plugins/jquery-3.4.1.min.js" strategy="beforeInteractive"></Script>
