@@ -10,6 +10,10 @@
         "en": "Pizzas",
         "el": "Πίτσες"
       },
+      "description": {
+        "en": "Discover the authentic taste and fresh ingredients that will make you fall in love with pizza again. From the classic margarita to the most imaginative creations, each piece is a journey of taste.",
+        "el": "Ανακαλύψτε την αυθεντική γεύση και τα φρέσκα υλικά που θα σας κάνουν να ερωτευτείτε ξανά την πίτσα. Από την κλασική μαργαρίτα μέχρι τις πιο ευφάνταστες δημιουργίες, κάθε κομμάτι είναι ένα ταξίδι γεύσης."
+      },
       "subcategories": [
         {
           "id": "special",
@@ -122,7 +126,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/chichen.webp"
+              "image" : "img/pizza/chicken.webp"
             },
             {
               "id": "cold-cut",
@@ -595,7 +599,8 @@
             }
           ]
         }
-      ]
+      ],
+      "bannerImg": "pizzas.webp"
     },
     {
       "id": "pastas",
@@ -607,6 +612,10 @@
             "en": "Baked Pastas",
             "el": "Ζυμαρικά Φούρνου"
         },
+      "description": {
+        "en": "Made with the purest recipe, bringing Italian tradition to your plate. Try now and elevate your meal!",
+        "el": "Φτιαγμένα με την πιο αγνή συνταγή, φέρνουν την Ιταλική παράδοση στο πιάτο σας. Δοκιμάστε τώρα και απογειώστε το γεύμα σας!"
+      },
       "showProducts": true,
       "products": [
         {
@@ -745,7 +754,8 @@
           "price": 6.5,
           "image": "img/pasta/dino.webp"
         }
-      ]
+      ],
+      "bannerImg": "pastas.webp"
     },
     {
       "id": "pasta-italiana",
@@ -756,6 +766,10 @@
       "name": {
         "en": "Italian Pasta",
         "el": "Ζυμαρικά Ιταλιάνα"
+      },
+      "description": {
+        "en": "Discover the authentic taste of Italy with Italian Pasta! Made from the finest grains and with absolute dedication to the traditional Italian method, our pasta offers unparalleled quality and taste. ",
+        "el": "Ανακαλύψτε την αυθεντική γεύση της Ιταλίας με τα Ζυμαρικά Ιταλιάνα! Κατασκευασμένα από τα καλύτερα σιτηρά και με απόλυτη προσήλωση στην παραδοσιακή ιταλική μέθοδο, τα ζυμαρικά μας προσφέρουν ανεπανάληπτη ποιότητα και γεύση. "
       },
       "showProducts": true,
       "products": [
@@ -810,7 +824,8 @@
           "price": 6.3,
           "image": "img/pasta/funchi.webp"
         }
-      ]
+      ],
+      "bannerImg": "pastaItalian2.webp"
     },
     {
       "id": "salads",
@@ -821,6 +836,10 @@
       "name": {
         "en": "Salads",
         "el": "Σαλάτες"
+      },
+      "description": {
+        "en": "Discover our fresh and delicious salads, made with the finest ingredients to complement any meal. Each salad is carefully crafted to ensure a perfect balance of flavors and textures, providing a healthy and satisfying option for our customers. ",
+        "el": "Ανακαλύψτε τις φρέσκες και νόστιμες σαλάτες μας, φτιαγμένες με τα καλύτερα υλικά για να συμπληρώσουν οποιοδήποτε γεύμα. Κάθε σαλάτα είναι προσεκτικά φτιαγμένη για να εξασφαλίσει μια τέλεια ισορροπία γεύσεων και υφών, προσφέροντας μια υγιεινή και ικανοποιητική επιλογή για τους πελάτες μας."
       },
       "showProducts": false,
       "products": [
@@ -890,7 +909,7 @@
             "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, μπέικον, νιφάδες παρμεζάνας, βινεγκρέτ"
           },
           "price": 6.3,
-          "image": "img/salads/parmezan.webp"
+          "image": "img/salads/parmezan-bakon.webp"
         },
         {
           "id": "parmezan-chicken",
@@ -943,7 +962,8 @@
           "price": 6.5,
           "image": "img/salads/chicken.webp"
         }
-      ]
+      ],
+      "bannerImg": "salads.webp"
     },
     {
       "id": "kaltsone",
@@ -955,13 +975,17 @@
         "en": "Calzone",
         "el": "Καλτσόνε"
       },
+      "description": {
+        "en": "Juicy and delicious stuffed calzone pizza. Fill it with the ingredients you love and enjoy it with every meal!",
+        "el": "Ζουμερή και πεντανόστιμη σκεπαστή πίτσα καλτσόνε. Γεμίστε την με τα υλικά που αγαπάτε και απολαύστε την σε κάθε γεύμα!"
+      },
       "showProducts": false,
       "products": [
         {
           "id": "dino",
           "slug": {
             "en": "dino-special",
-            "el": "dino-eidiko"
+            "el": "dino-special"
           },
           "name": {
             "en": "DINO SPECIAL",
@@ -989,7 +1013,7 @@
             "el": "Σάλτσα, φέτα, κρεμμύδι, ντομάτα, πιπεριά, κεφαλοτύρι, μείγμα τυριών"
           },
           "price": 5.5,
-          "image": "img/kaltsone/xoriatiki.webp"
+          "image": "img/kaltsone/xoriatiko.webp"
         },
         {
           "id": "chicken",
@@ -1025,7 +1049,8 @@
           "price": 5.5,
           "image": "img/kaltsone/spicy.webp"
         }
-      ]
+      ],
+      "bannerImg": "kaltsone.webp"
     },
     {
       "id": "penirli",
@@ -1036,6 +1061,10 @@
       "name": {
         "en": "Penirli",
         "el": "Πενιρλί"
+      },
+      "description": {
+        "en": "Penirli is a traditional Greek food, consisting of a long dough filled with rich ingredients such as cheese or cold cuts, and baked until it has a crispy surface and golden color, offering a delicious combination of flavors and aromas.",
+        "el": "Το Πεϊνιρλί είναι ένα παραδοσιακό ελληνικό φαγητό, που αποτελείται από μακρόστενη ζύμη γεμισμένη με πλούσια συστατικά όπως τυρί ή αλλαντικά, και ψήνεται μέχρι να αποκτήσει τραγανή επιφάνεια και χρυσαφένιο χρώμα, προσφέροντας έναν απολαυστικό συνδυασμό γεύσεων και αρωμάτων."
       },
       "showProducts": false,
       "products": [
@@ -1088,7 +1117,7 @@
             "el": "Φέτα, κρεμμύδι, ντομάτα, πιπεριά, ρίγανη, μείγμα τυριών"
           },
           "price": 3.9,
-          "image": "img/penirli/xoriatiki.webp"
+          "image": "img/penirli/xoriatiko.webp"
         },
         {
           "id": "spicy",
@@ -1107,7 +1136,8 @@
           "price": 3.9,
           "image": "img/penirli/spicy.webp"
         }
-      ]
+      ],
+      "bannerImg": "penirli.webp"
     },
     {
       "id": "stroundel",
@@ -1118,6 +1148,10 @@
       "name": {
         "en": "Stroundel",
         "el": "Στραουντελ"
+      },
+      "description": {
+        "en": "Stroundel is a unique food with emerging fame for its distinct flavor and can be served as a main dish, side dish, or appetizer.",
+        "el": "Το στρούντελ είναι ένα μοναδικό τρόφιμο με αναδυόμενη φήμη για την ξεχωριστή γεύση και μπορεί να σερβιριστεί ως κυρίως πιάτο, συνοδευτικό ή ορεκτικό. "
       },
       "showProducts": false,
       "products": [
@@ -1172,7 +1206,8 @@
           "price": 5.0,
           "image": "img/stroundel/dino.webp"
         }
-      ]
+      ],
+      "bannerImg": "stroudel.webp"
     },
     {
       "id": "glosses",
@@ -1183,6 +1218,10 @@
       "name": {
         "en": "Dino Glosses",
         "el": "Dino Γλώσσες"
+      },
+      "description": {
+        "en": "",
+        "el": ""
       },
       "showProducts": false,
       "products": [
@@ -1201,7 +1240,7 @@
             "el": "Σως Dino, ζαμπόν ή γαλοπούλα, ντομάτα, μείγμα τυριών"
           },
           "price": 2.7,
-          "image": "img/glosses/zambon.webp"
+          "image": "img/glosses/ham.jpg"
         },
         {
           "id": "peperone",
@@ -1218,7 +1257,7 @@
             "el": "Σως Dino, πεπερόνε, ντομάτα, μείγμα τυριών"
           },
           "price": 2.7,
-          "image": "img/glosses/peperone.webp"
+          "image": "img/glosses/peperone.jpg"
         },
         {
           "id": "chicken",
@@ -1235,7 +1274,7 @@
             "el": "Σως Dino, κοτόπουλο, ντομάτα, μείγμα τυριών"
           },
           "price": 2.9,
-          "image": "img/glosses/chicken.webp"
+          "image": "img/glosses/chicken.jpg"
         },
         {
           "id": "dino",
@@ -1252,9 +1291,10 @@
             "el": "Σως Dino, ζαμπόν, πεπερόνε, μπέικον, ντομάτα, μείγμα τυριών"
           },
           "price": 3.1,
-          "image": "img/glosses/dino.webp"
+          "image": "img/glosses/dino.jpg"
         }
-      ]
+      ],
+      "bannerImg": "glossa.webp"
     }
   ]
 }

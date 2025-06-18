@@ -1,7 +1,5 @@
 import {Fragment} from "react";
-import Script from "next/script";
 import {HeroSection} from "@/components/Homepage/HeroSection";
-import Link from "next/link";
 import {HomepageCategories} from "@/components/Homepage/Categories";
 import {Testimonials} from "@/components/Homepage/Testimonials";
 import {Hiring} from "@/components/Homepage/Hiring";
