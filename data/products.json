@@ -1295,6 +1295,190 @@
         }
       ],
       "bannerImg": "glossa.webp"
+    },
+    {
+      "id": "drinks",
+      "slug": {
+        "en": "drinks",
+        "el": "anapsyktika"
+      },
+      "name": {
+        "en": "Drinks",
+        "el": "Αναψυκτικά"
+      },
+      "description": {
+        "en": "",
+        "el": ""
+      },
+      "showProducts": false,
+      "products": [
+        {
+          "id": "coca_cola_330",
+          "slug": { "en": "coca-cola-330ml", "el": "coca-kola-330ml" },
+          "name": { "en": "COCA COLA 330ML", "el": "COCA COLA 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.20,
+          "image": "img/drinks/coca.jpg"
+        },
+        {
+          "id": "sprite_330",
+          "slug": { "en": "sprite-330ml", "el": "sprite-330ml" },
+          "name": { "en": "SPRITE 330ML", "el": "SPRITE 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.20,
+          "image": "img/drinks/sprite.jpg"
+        },
+        {
+          "id": "fanta_330",
+          "slug": { "en": "fanta-330ml", "el": "fanta-330ml" },
+          "name": { "en": "FANTA 330ML", "el": "FANTA 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.20,
+          "image": "img/drinks/fanta.png"
+        },
+        {
+          "id": "soda_330",
+          "slug": { "en": "soda-330ml", "el": "soda-330ml" },
+          "name": { "en": "SODA 330ML", "el": "ΣΟΔΑ 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.20,
+          "image": "img/drinks/soda.webp"
+        },
+        {
+          "id": "coca_cola_500",
+          "slug": { "en": "coca-cola-500ml", "el": "coca-kola-500ml" },
+          "name": { "en": "COCA COLA 500ML", "el": "COCA COLA 500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.50,
+          "image": "img/drinks/coca500.jpg"
+        },
+        {
+          "id": "coca_cola_zero_500",
+          "slug": { "en": "coca-cola-zero-500ml", "el": "coca-kola-zero-500ml" },
+          "name": { "en": "COCA COLA ZERO 500ML", "el": "COCA COLA ZERO 500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.50,
+          "image": "img/drinks/cocazero500.jpg"
+        },
+        {
+          "id": "coca_cola_zero_1500",
+          "slug": { "en": "coca-cola-zero-1500ml", "el": "coca-kola-zero-1500ml" },
+          "name": { "en": "COCA COLA ZERO 1500ML", "el": "COCA COLA ZERO 1500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 2.40,
+          "image": "img/drinks/cocazero1500.jpg"
+        },
+        {
+          "id": "sprite_1500",
+          "slug": { "en": "sprite-1500ml", "el": "sprite-1500ml" },
+          "name": { "en": "SPRITE 1500ML", "el": "SPRITE 1500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 2.40,
+          "image": "img/drinks/sprite1500.jpeg"
+        },
+        {
+          "id": "fanta_1500",
+          "slug": { "en": "fanta-1500ml", "el": "fanta-1500ml" },
+          "name": { "en": "FANTA 1500ML", "el": "FANTA 1500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 2.40,
+          "image": "img/drinks/fanta1500.jpg"
+        },
+        {
+          "id": "heineken_330",
+          "slug": { "en": "heineken-330ml", "el": "heineken-330ml" },
+          "name": { "en": "HEINEKEN 330ML", "el": "HEINEKEN 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.70,
+          "image": "img/drinks/heineken.jpg"
+        },
+        {
+          "id": "amstel_330",
+          "slug": { "en": "amstel-330ml", "el": "amstel-330ml" },
+          "name": { "en": "AMSTEL 330ML", "el": "AMSTEL 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.50,
+          "image": "img/drinks/amstel.jpg"
+        },
+        {
+          "id": "alfa_330",
+          "slug": { "en": "alfa-330ml", "el": "alfa-330ml" },
+          "name": { "en": "ALFA 330ML", "el": "ALFA 330ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.50,
+          "image": "img/drinks/alfa.jpg"
+        },
+        {
+          "id": "white_wine_1500",
+          "slug": { "en": "white-wine-1500ml", "el": "krasi-lefko-1500ml" },
+          "name": { "en": "WHITE WINE 1500ML", "el": "ΚΡΑΣΙ ΛΕΥΚΟ 1500ML" },
+          "description": {
+            "en": "White wine 'G. Kechris'",
+            "el": "ΛΕΥΚΟΣ ΟΙΝΟΣ 'Γ. ΚΕΧΡΗΣ'"
+          },
+          "price": 3.20,
+          "image": "img/drinks/wine.webp"
+        },
+        {
+          "id": "water_500",
+          "slug": { "en": "water-500ml", "el": "nero-500ml" },
+          "name": { "en": "WATER 500ML", "el": "ΝΕΡΟ 500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 0.50,
+          "image": "img/drinks/water.jpg"
+        },
+        {
+          "id": "water_1500",
+          "slug": { "en": "water-1500ml", "el": "nero-1500ml" },
+          "name": { "en": "WATER 1500ML", "el": "ΝΕΡΟ 1500ML" },
+          "description": {
+            "en": "",
+            "el": ""
+          },
+          "price": 1.00,
+          "image": "img/drinks/water1500.jpg"
+        }
+      ]
     }
+
   ]
 }

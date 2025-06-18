@@ -125,6 +125,11 @@
     "privacy": "Πολιτική Απορρήτου",
     "socialMediaText": "Ακολούθησε μας στα social media ώστε να μην χάσεις καμία προσφορά !",
     "followUs": "Ακολουθήστε μας"
+  },
+  "MenuPage": {
+    "pageTitle": "Menu",
+    "metaDescription": "",
+    "detailsCta" : "Λεπτομέρειες"
   }
 }
 

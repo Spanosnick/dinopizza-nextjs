@@ -125,6 +125,11 @@
     "privacy": "Privacy Policy",
     "socialMediaText": "Follow us on social media to never miss a deal!",
     "followUs": "Follow Us"
+  },
+  "MenuPage": {
+    "pageTitle": "Μενού",
+    "metaDescription": "Discover our menu of authentic Italian pizzas and pastas. Order online and enjoy flavors that will take you on a journey!",
+    "detailsCta" : "Details"
   }
 }
 
