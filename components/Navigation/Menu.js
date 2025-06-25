@@ -38,7 +38,7 @@ export default function renderMenu(category,locale) {
                             {sub.products.map(product => (
                                 <li key={product.id} className="menu-item">
                                     <Link
-                                        href={`/menu/${category.slug[locale]}/${sub.slug[locale]}/${product.slug[locale]}`}>
+                                        href={`/menu/${category.slug[locale]}/${product.slug[locale]}`}>
                                         {product.name[locale]}
                                     </Link>
                                 </li>

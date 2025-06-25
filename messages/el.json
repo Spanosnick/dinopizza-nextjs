@@ -130,6 +130,15 @@
     "pageTitle": "Menu",
     "metaDescription": "",
     "detailsCta" : "Λεπτομέρειες"
+  },
+  "ProductDetails": {
+    "size": "Μέγεθος",
+    "medium": "Μεσαία",
+    "medium-fill": "Μεσαία με φιλαδέλφια στο στεφάνι",
+    "big": "Μεγάλη",
+    "big-fill": "Μεγάλη με φιλαδέλφια στο στεφάνι",
+    "menuCta": "Δες το μενού",
+    "price": "Τιμή"
   }
 }
 

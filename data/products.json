@@ -46,7 +46,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10
                 },
                 {
@@ -58,7 +58,7 @@
                   "price": 15.5
                 }
               ],
-                "image" : "img/pizza/special.webp"
+                "image" : "/img/pizza/special.webp"
             },
             {
               "id": "ala-creme",
@@ -80,7 +80,7 @@
                   "price": 7.7
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 9.4
                 },
                 {
@@ -92,7 +92,7 @@
                   "price": 14.5
                 }
               ],
-              "image" : "img/pizza/ala-krem.webp"
+              "image" : "/img/pizza/ala-krem.webp"
             },
             {
               "id": "chicken",
@@ -114,7 +114,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10.00
                 },
                 {
@@ -126,7 +126,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/chicken.webp"
+              "image" : "/img/pizza/chicken.webp"
             },
             {
               "id": "cold-cut",
@@ -148,7 +148,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10.00
                 },
                 {
@@ -160,7 +160,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/coldcut.webp"
+              "image" : "/img/pizza/coldcut.webp"
             },
             {
               "id": "barbeque",
@@ -182,7 +182,7 @@
                   "price": 7
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 8.7
                 },
                 {
@@ -194,7 +194,7 @@
                   "price": 13.5
                 }
               ],
-              "image" : "img/pizza/barbeque.webp"
+              "image" : "/img/pizza/barbeque.webp"
             },
             {
               "id": "chicken-barbeque",
@@ -216,7 +216,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10.0
                 },
                 {
@@ -228,7 +228,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/chichen-barbeque.webp"
+              "image" : "/img/pizza/chichen-barbeque.webp"
             },
             {
               "id": "chicken-ala-krem",
@@ -250,7 +250,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10.0
                 },
                 {
@@ -262,7 +262,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/chicken-ala-krem.webp"
+              "image" : "/img/pizza/chicken-ala-krem.webp"
             }
           ]
         },
@@ -297,7 +297,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10
                 },
                 {
@@ -309,7 +309,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/vezoubios.webp"
+              "image" : "/img/pizza/vezoubios.webp"
             },
             {
               "id": "spicy",
@@ -331,7 +331,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10
                 },
                 {
@@ -343,7 +343,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/spicy.webp"
+              "image" : "/img/pizza/spicy.webp"
             },
             {
               "id": "mexican",
@@ -365,7 +365,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10
                 },
                 {
@@ -377,7 +377,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/mexican.webp"
+              "image" : "/img/pizza/mexican.webp"
             },
             {
               "id": "politiki",
@@ -399,7 +399,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10
                 },
                 {
@@ -411,7 +411,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/politiki.webp"
+              "image" : "/img/pizza/politiki.webp"
             }
           ]
         },
@@ -446,7 +446,7 @@
                   "price": 7.0
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 8.7
                 },
                 {
@@ -458,7 +458,7 @@
                   "price": 13.5
                 }
               ],
-              "image" : "img/pizza/margarita.webp"
+              "image" : "/img/pizza/margarita.webp"
             },
             {
               "id": "xoriatiki",
@@ -480,7 +480,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10.0
                 },
                 {
@@ -492,7 +492,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/xoriatiki.webp"
+              "image" : "/img/pizza/xoriatiki.webp"
             },
             {
               "id": "agrotiki",
@@ -514,7 +514,7 @@
                   "price": 8.5
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 10.0
                 },
                 {
@@ -526,7 +526,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "img/pizza/agrotiki.webp"
+              "image" : "/img/pizza/agrotiki.webp"
             },
             {
               "id": "four-cheese",
@@ -548,7 +548,7 @@
                   "price": 7.7
                 },
                 {
-                  "size": "medium-fil",
+                  "size": "medium-fill",
                   "price": 9.4
                 },
                 {
@@ -560,7 +560,7 @@
                   "price": 14.5
                 }
               ],
-              "image" : "img/pizza/four-cheese.webp"
+              "image" : "/img/pizza/four-cheese.webp"
             }
           ]
         },
@@ -595,7 +595,7 @@
                   "price": 7.0
                 }
               ],
-              "image" : "img/pizza/sweet.webp"
+              "image" : "/img/pizza/sweet.webp"
             }
           ]
         }
@@ -633,7 +633,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, σάλτσα νάπολη, μείγμα τυριών"
           },
           "price": 5.5,
-            "image": "img/pasta/napoliten.webp"
+            "image": "/img/pasta/napoliten.webp"
         },
         {
           "id": "carbonara",
@@ -650,7 +650,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, ζαμπόν, κρέμα γάλακτος, πιπεριά, μείγμα τυριών"
           },
           "price": 6.3,
-          "image": "img/pasta/carbonara.webp"
+          "image": "/img/pasta/carbonara.webp"
         },
         {
           "id": "ala-krem",
@@ -667,7 +667,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, μπέικον, μείγμα τυριών"
           },
           "price": 6.3,
-          "image": "img/pasta/ala-krem.webp"
+          "image": "/img/pasta/ala-krem.webp"
         },
         {
           "id": "special",
@@ -684,7 +684,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, σάλτσα νάπολη, μανιτάρια, ζαμπόν, πιπεριές, μείγμα τυριών"
           },
           "price": 6.3,
-          "image": "img/pasta/special.webp"
+          "image": "/img/pasta/special.webp"
         },
         {
           "id": "four-cheese",
@@ -701,7 +701,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, ροκφόρ, γκούντα, ένταμ, μοτσαρέλα"
           },
           "price": 6.3,
-          "image": "img/pasta/four-cheese.webp"
+          "image": "/img/pasta/four-cheese.webp"
         },
         {
           "id": "bolonez",
@@ -718,7 +718,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, κιμάς μοσχαρίσιος, σάλτσα νάπολη, μείγμα τυριών"
           },
           "price": 6.3,
-          "image": "img/pasta/bolonez.webp"
+          "image": "/img/pasta/bolonez.webp"
         },
         {
           "id": "chicken-pasta",
@@ -735,7 +735,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, μανιτάρια, κοτόπουλο, κρέμα γάλακτος, μείγμα τυριών"
           },
           "price": 6.5,
-          "image": "img/pasta/chicken.webp"
+          "image": "/img/pasta/chicken.webp"
         },
         {
           "id": "dino",
@@ -752,7 +752,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, μανιτάρια, ζαμπόν, μπέικον, κρέμα γάλακτος, μείγμα τυριών"
           },
           "price": 6.5,
-          "image": "img/pasta/dino.webp"
+          "image": "/img/pasta/dino.webp"
         }
       ],
       "bannerImg": "pastas.webp"
@@ -788,7 +788,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, μπέικον, κρέμα γάλακτος, παρμεζάνα"
           },
           "price": 6.3,
-            "image": "img/pasta/carbonara-italian.webp"
+            "image": "/img/pasta/carbonara-italian.webp"
         },
         {
           "id": "polo",
@@ -805,7 +805,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, κοτόπουλο, μανιτάρια, κρέμα γάλακτος, παρμεζάνα"
           },
           "price": 6.5,
-          "image": "img/pasta/polo.webp"
+          "image": "/img/pasta/polo.webp"
         },
         {
           "id": "funchi-pasta",
@@ -822,7 +822,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, μανιτάρια, παρμεζάνα"
           },
           "price": 6.3,
-          "image": "img/pasta/funchi.webp"
+          "image": "/img/pasta/funchi.webp"
         }
       ],
       "bannerImg": "pastaItalian2.webp"
@@ -858,7 +858,7 @@
             "el": "Μαρούλι, αγγούρι, ντομάτα, ζαμπόν, ένταμ, αυγό, σως σεφ"
           },
           "price": 6.3,
-          "image": "img/salads/chef.webp"
+          "image": "/img/salads/chef.webp"
         },
         {
           "id": "tuna",
@@ -875,7 +875,7 @@
             "el": "Μαρούλι, αγγούρι, κρεμμύδι, κρουτόν, τόνος, μαγιονέζα"
           },
           "price": 6.5,
-          "image": "img/salads/tuna.webp"
+          "image": "/img/salads/tuna.webp"
         },
         {
           "id": "caesar",
@@ -892,7 +892,7 @@
             "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, κοτόπουλο, ένταμ, σως καίσαρα"
           },
           "price": 6.5,
-          "image": "img/salads/caesar.webp"
+          "image": "/img/salads/caesar.webp"
         },
         {
           "id": "parmezan",
@@ -909,7 +909,7 @@
             "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, μπέικον, νιφάδες παρμεζάνας, βινεγκρέτ"
           },
           "price": 6.3,
-          "image": "img/salads/parmezan-bakon.webp"
+          "image": "/img/salads/parmezan-bakon.webp"
         },
         {
           "id": "parmezan-chicken",
@@ -926,7 +926,7 @@
             "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, κοτόπουλο, νιφάδες παρμεζάνας, βινεγκρέτ"
           },
           "price": 6.5,
-          "image": "img/salads/parmezan-chicken.webp"
+          "image": "/img/salads/parmezan-chicken.webp"
         },
         {
           "id": "fasting",
@@ -943,7 +943,7 @@
             "el": "Μαρούλι, αγγούρι, καλαμπόκι, κρουτόν, νιφάδες παρμεζάνας, βινεγκρέτ"
           },
           "price": 6.0,
-          "image": "img/salads/fasting.webp"
+          "image": "/img/salads/fasting.webp"
         },
         {
           "id": "chicken",
@@ -960,7 +960,7 @@
             "el": "Μαρούλι, αγγούρι, ντομάτα, κοτόπουλο, ένταμ, μαγιονέζα"
           },
           "price": 6.5,
-          "image": "img/salads/chicken.webp"
+          "image": "/img/salads/chicken.webp"
         }
       ],
       "bannerImg": "salads.webp"
@@ -996,7 +996,7 @@
             "el": "Σάλτσα, ζαμπόν, πεπερόνε, φέτα, ντομάτα, κεφαλοτύρι, μείγμα τυριών"
           },
           "price": 5.5,
-          "image": "img/kaltsone/dino.webp"
+          "image": "/img/kaltsone/dino.webp"
         },
         {
           "id": "xoriatiki",
@@ -1013,7 +1013,7 @@
             "el": "Σάλτσα, φέτα, κρεμμύδι, ντομάτα, πιπεριά, κεφαλοτύρι, μείγμα τυριών"
           },
           "price": 5.5,
-          "image": "img/kaltsone/xoriatiko.webp"
+          "image": "/img/kaltsone/xoriatiko.webp"
         },
         {
           "id": "chicken",
@@ -1030,7 +1030,7 @@
             "el": "Σάλτσα, κοτόπουλο, ντομάτα, κεφαλοτύρι, μείγμα τυριών"
           },
           "price": 5.5,
-          "image": "img/kaltsone/chicken.webp"
+          "image": "/img/kaltsone/chicken.webp"
         },
         {
           "id": "spicy",
@@ -1047,7 +1047,7 @@
             "el": "Σάλτσα, σουτζούκι, πεπερόνε, μπέικον, κεφαλοτύρι, μείγμα τυριών"
           },
           "price": 5.5,
-          "image": "img/kaltsone/spicy.webp"
+          "image": "/img/kaltsone/spicy.webp"
         }
       ],
       "bannerImg": "kaltsone.webp"
@@ -1083,7 +1083,7 @@
             "el": "Ζαμπόν, μπέικον, μείγμα τυριών"
           },
           "price": 3.6,
-          "image": "img/penirli/special.webp"
+          "image": "/img/penirli/special.webp"
         },
         {
           "id": "chicken",
@@ -1100,7 +1100,7 @@
             "el": "Κοτόπουλο, μανιτάρια, μείγμα τυριών"
           },
           "price": 3.9,
-          "image": "img/penirli/chicken.webp"
+          "image": "/img/penirli/chicken.webp"
         },
         {
           "id": "xoriatiki",
@@ -1117,7 +1117,7 @@
             "el": "Φέτα, κρεμμύδι, ντομάτα, πιπεριά, ρίγανη, μείγμα τυριών"
           },
           "price": 3.9,
-          "image": "img/penirli/xoriatiko.webp"
+          "image": "/img/penirli/xoriatiko.webp"
         },
         {
           "id": "spicy",
@@ -1134,7 +1134,7 @@
             "el": "Σουτζούκι, πεπερόνε, μπέικον, μείγμα τυριών"
           },
           "price": 3.9,
-          "image": "img/penirli/spicy.webp"
+          "image": "/img/penirli/spicy.webp"
         }
       ],
       "bannerImg": "penirli.webp"
@@ -1170,7 +1170,7 @@
             "el": "Μείγμα τυριών, σκόρδο"
           },
           "price": 4.3,
-          "image": "img/stroundel/garlic.webp"
+          "image": "/img/stroundel/garlic.webp"
         },
         {
           "id": "olive",
@@ -1187,7 +1187,7 @@
             "el": "Μείγμα τυριών, ελιές"
           },
           "price": 5.0,
-          "image": "img/stroundel/olive.webp"
+          "image": "/img/stroundel/olive.webp"
         },
         {
           "id": "dino",
@@ -1204,7 +1204,7 @@
             "el": "Μείγμα τυριών, ζαμπόν, μπέικον"
           },
           "price": 5.0,
-          "image": "img/stroundel/dino.webp"
+          "image": "/img/stroundel/dino.webp"
         }
       ],
       "bannerImg": "stroudel.webp"
@@ -1240,7 +1240,7 @@
             "el": "Σως Dino, ζαμπόν ή γαλοπούλα, ντομάτα, μείγμα τυριών"
           },
           "price": 2.7,
-          "image": "img/glosses/ham.jpg"
+          "image": "/img/glosses/ham.jpg"
         },
         {
           "id": "peperone",
@@ -1257,7 +1257,7 @@
             "el": "Σως Dino, πεπερόνε, ντομάτα, μείγμα τυριών"
           },
           "price": 2.7,
-          "image": "img/glosses/peperone.jpg"
+          "image": "/img/glosses/peperone.jpg"
         },
         {
           "id": "chicken",
@@ -1274,7 +1274,7 @@
             "el": "Σως Dino, κοτόπουλο, ντομάτα, μείγμα τυριών"
           },
           "price": 2.9,
-          "image": "img/glosses/chicken.jpg"
+          "image": "/img/glosses/chicken.jpg"
         },
         {
           "id": "dino",
@@ -1291,7 +1291,7 @@
             "el": "Σως Dino, ζαμπόν, πεπερόνε, μπέικον, ντομάτα, μείγμα τυριών"
           },
           "price": 3.1,
-          "image": "img/glosses/dino.jpg"
+          "image": "/img/glosses/dino.jpg"
         }
       ],
       "bannerImg": "glossa.webp"
@@ -1321,7 +1321,7 @@
             "el": ""
           },
           "price": 1.20,
-          "image": "img/drinks/coca.jpg"
+          "image": "/img/drinks/coca.jpg"
         },
         {
           "id": "sprite_330",
@@ -1332,7 +1332,7 @@
             "el": ""
           },
           "price": 1.20,
-          "image": "img/drinks/sprite.jpg"
+          "image": "/img/drinks/sprite.jpg"
         },
         {
           "id": "fanta_330",
@@ -1343,7 +1343,7 @@
             "el": ""
           },
           "price": 1.20,
-          "image": "img/drinks/fanta.png"
+          "image": "/img/drinks/fanta.png"
         },
         {
           "id": "soda_330",
@@ -1354,7 +1354,7 @@
             "el": ""
           },
           "price": 1.20,
-          "image": "img/drinks/soda.webp"
+          "image": "/img/drinks/soda.webp"
         },
         {
           "id": "coca_cola_500",
@@ -1365,7 +1365,7 @@
             "el": ""
           },
           "price": 1.50,
-          "image": "img/drinks/coca500.jpg"
+          "image": "/img/drinks/coca500.jpg"
         },
         {
           "id": "coca_cola_zero_500",
@@ -1376,7 +1376,7 @@
             "el": ""
           },
           "price": 1.50,
-          "image": "img/drinks/cocazero500.jpg"
+          "image": "/img/drinks/cocazero500.jpg"
         },
         {
           "id": "coca_cola_zero_1500",
@@ -1387,7 +1387,7 @@
             "el": ""
           },
           "price": 2.40,
-          "image": "img/drinks/cocazero1500.jpg"
+          "image": "/img/drinks/cocazero1500.jpg"
         },
         {
           "id": "sprite_1500",
@@ -1398,7 +1398,7 @@
             "el": ""
           },
           "price": 2.40,
-          "image": "img/drinks/sprite1500.jpeg"
+          "image": "/img/drinks/sprite1500.jpeg"
         },
         {
           "id": "fanta_1500",
@@ -1409,7 +1409,7 @@
             "el": ""
           },
           "price": 2.40,
-          "image": "img/drinks/fanta1500.jpg"
+          "image": "/img/drinks/fanta1500.jpg"
         },
         {
           "id": "heineken_330",
@@ -1420,7 +1420,7 @@
             "el": ""
           },
           "price": 1.70,
-          "image": "img/drinks/heineken.jpg"
+          "image": "/img/drinks/heineken.jpg"
         },
         {
           "id": "amstel_330",
@@ -1431,7 +1431,7 @@
             "el": ""
           },
           "price": 1.50,
-          "image": "img/drinks/amstel.jpg"
+          "image": "/img/drinks/amstel.jpg"
         },
         {
           "id": "alfa_330",
@@ -1442,7 +1442,7 @@
             "el": ""
           },
           "price": 1.50,
-          "image": "img/drinks/alfa.jpg"
+          "image": "/img/drinks/alfa.jpg"
         },
         {
           "id": "white_wine_1500",
@@ -1453,7 +1453,7 @@
             "el": "ΛΕΥΚΟΣ ΟΙΝΟΣ 'Γ. ΚΕΧΡΗΣ'"
           },
           "price": 3.20,
-          "image": "img/drinks/wine.webp"
+          "image": "/img/drinks/wine.webp"
         },
         {
           "id": "water_500",
@@ -1464,7 +1464,7 @@
             "el": ""
           },
           "price": 0.50,
-          "image": "img/drinks/water.jpg"
+          "image": "/img/drinks/water.jpg"
         },
         {
           "id": "water_1500",
@@ -1475,7 +1475,7 @@
             "el": ""
           },
           "price": 1.00,
-          "image": "img/drinks/water1500.jpg"
+          "image": "/img/drinks/water1500.jpg"
         }
       ]
     }

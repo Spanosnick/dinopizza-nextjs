@@ -1,8 +1,22 @@
+'use client';
 import {useTranslations} from "next-intl";
 import Script from "next/script";
+import {useEffect, useState} from "react";
 
 export function Testimonials() {
     const messages = useTranslations('Homepage');
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        // This runs only on the client
+        if (process.env.NODE_ENV === "production") {
+            setIsClient(true);
+        }
+    }, []);
+
+    if (!isClient) {
+        return null; // Don't render anything in development or during SSR
+    }
     return (
         <section className="section testimonials">
             <div className="container">

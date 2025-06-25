@@ -130,6 +130,15 @@
     "pageTitle": "Μενού",
     "metaDescription": "Discover our menu of authentic Italian pizzas and pastas. Order online and enjoy flavors that will take you on a journey!",
     "detailsCta" : "Details"
+  },
+  "ProductDetails": {
+    "size": "Size",
+    "medium": "Medium",
+    "medium-fill": "Medium with Philadelphia on the rim",
+    "big": "Large",
+    "big-fill": "Large with Philadelphia on the rim",
+    "menuCta": "Check the menu",
+    "price": "Price"
   }
 }
 

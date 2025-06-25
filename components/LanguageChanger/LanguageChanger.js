@@ -13,7 +13,7 @@ function LanguageChanger() {
     const parts = pathname.split('/').filter(Boolean); // ['en', 'menu', 'pizzas', 'ala-creme']
 
     const [ section, categorySlug, productSlug] = parts;
-    console.log(parts)
+
     return (
         <div id="language-container">
             <div
@@ -36,7 +36,6 @@ function LanguageChanger() {
 
                     if (section === 'menu' && categorySlug) {
                         const localizedCategory = getLocalizedCategorySlug(categorySlug, currentLocale, locale);
-                        console.log(`Localized category for ${categorySlug} from ${currentLocale} to ${locale}: ${localizedCategory}`);
                         href += `/menu/${localizedCategory}`;
 
 

@@ -17,7 +17,7 @@ export default function ProductItem({product,locale,categorySlug}) {
         <div className="col-lg-4 col-md-6">
             <div className="product">
                 <Link className="product-thumb" href={link}>
-                    <Image src={`/${product.image}`} alt={product.name[locale]} width={500} height={500} />
+                    <Image src={product.image} alt={product.name[locale]} width={500} height={500} />
                 </Link>
                 <div className="product-body">
                     <div className="product-desc">
