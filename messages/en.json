@@ -104,6 +104,8 @@
         "subject": "Subject",
         "message": "Message"
       },
+      "formSuccessMessage": " Your message has been sent successfully! We will get back to you as soon as possible.",
+      "formErrorMessage": " An error occurred while sending your message. Please try again.",
       "sendButton": "Send Message"
     }
   },

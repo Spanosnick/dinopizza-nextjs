@@ -1,8 +1,44 @@
+'use client';
 import Link from "next/link";
 import {useTranslations} from "next-intl";
+import { useState} from "react";
+import {Loading} from "@/components/Commons/Loading";
+import { sendContactEmail } from "@/src/actions/SendContactEmail";
+
 
 export function ContactForm() {
     const messages = useTranslations('Homepage');
+    const [isLoading, setIsLoading] = useState(false);
+    const [status, setStatus] = useState({
+        success: false,
+        message: ''
+    });
+
+
+    async function handleSubmit(formData) {
+        setIsLoading(true);
+        const result = await sendContactEmail(formData);
+        if (result.success) {
+            setStatus({
+                success: true,
+                message: messages('contact.formSuccessMessage')
+            });
+        } else {
+            setStatus({
+                success: false,
+                message: messages('contact.formErrorMessage'),
+                error: result.message
+            });
+        }
+
+
+        setIsLoading(false);
+    }
+
+    if (isLoading) {
+        return  <Loading />
+    }
+
     return (
         <div className="contact-wrapper">
             <div className="">
@@ -51,7 +87,7 @@ export function ContactForm() {
                             <p className="subtitle "> {messages('contact.formText')} </p>
                         </div>
 
-                        <form className="text-center" id="formContact">
+                        <form action={handleSubmit} className="text-center" id="formContact">
                             <div className="row">
                                 <div className="form-group col-lg-6">
                                     <input type="text" placeholder={messages('contact.fields.firstName')} className="form-control" name="name"/>
@@ -72,7 +108,8 @@ export function ContactForm() {
                                       rows="8"></textarea>
                                 </div>
                             </div>
-                            <button className="btn-custom primary" >{messages('contact.sendButton')}</button>
+                            <p className={status.success === true ?`bg-success text-white` : 'bg-warning text-white'}>{status.message} </p>
+                            <button  className="btn-custom primary" >{messages('contact.sendButton')}</button>
                         </form>
 
 
