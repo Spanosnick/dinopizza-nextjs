@@ -81,9 +81,9 @@
       "text": "What they say about us"
     },
     "hiring": {
-        "title": "Join Our Team",
-        "text": "We are always looking for talented individuals to join our team! If you are passionate about food and customer service, we would love to hear from you. Send us your CV and let's create delicious moments together!",
-        "button": "Apply Now"
+      "title": "Join Our Team",
+      "text": "We are always looking for talented individuals to join our team! If you are passionate about food and customer service, we would love to hear from you. Send us your CV and let's create delicious moments together!",
+      "button": "Apply Now"
     },
     "contact": {
       "findUs": "Find us here",
@@ -131,7 +131,7 @@
   "MenuPage": {
     "pageTitle": "Μενού",
     "metaDescription": "Discover our menu of authentic Italian pizzas and pastas. Order online and enjoy flavors that will take you on a journey!",
-    "detailsCta" : "Details"
+    "detailsCta": "Details"
   },
   "ProductDetails": {
     "size": "Size",
@@ -141,6 +141,25 @@
     "big-fill": "Large with Philadelphia on the rim",
     "menuCta": "Check the menu",
     "price": "Price"
+  },
+  "about": {
+    "title": "About Us",
+    "metaTitle": "About Dino Pizza | Traditional Taste",
+    "metaDescription": "Dino Pizza offers an authentic Italian experience with fresh ingredients and traditional recipes.",
+    "pageTitle": "About Us",
+    "hero": {
+      "title": "Our Story",
+      "subtitle": "Serving you since 2005",
+      "firstText": "Welcome to our pizzeria, your favorite taste corner in Vasiliko, Chalkidas! Since 2005, we have been passionately offering traditional pizzas made with love...",
+      "secondText": "Our pizzeria has earned the trust of our customers...",
+      "thirdText": "Thank you for your preference — we invite you to discover our unique flavors...",
+      "button": "See the Menu"
+    },
+    "newsLetterTitle": " Subscribe to our Newsletter",
+    "newsLetterSubTitle": " By subscribing to our Newsletter, you will find all the latest updates, offers, and news about our pizzeria.",
+    "newsLetterCta": "Subscribe",
+    "formSuccessMessage": " Your message has been sent successfully! We will get back to you as soon as possible.",
+    "formErrorMessage": " An error occurred while sending your message. Please try again."
   }
 }
 

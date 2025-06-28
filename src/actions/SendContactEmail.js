@@ -1,5 +1,5 @@
 "use server";
-import {sendEmail}  from "@/src/api/send-email";
+import {sendEmail}  from "@/src/api/sendEmail";
 
 export async function sendContactEmail(formData) {
     const data = {
