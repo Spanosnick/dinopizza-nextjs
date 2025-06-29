@@ -175,6 +175,63 @@
     "email": "Email:",
     "workingHours": "Working Hours",
     "workingHoursText": "Monday - Sunday: 18:00 - 23:30"
+  },
+  "policy": {
+    "header": "Privacy Policy",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Dinopizza.gr is committed to protecting the privacy of users of our website. This Privacy Policy explains how we collect, use, store, and protect your personal data."
+      },
+      "informationCollection": {
+        "title": "Information Collection",
+        "content": "We may collect and process the following information:",
+        "list": {
+          "personalData": "Personal information (name, address, email, phone number)",
+          "usageData": "Website usage information (IP address, browser type, access timestamps)"
+        }
+      },
+      "informationUse": {
+        "title": "Use of Information",
+        "content": "The information we collect is used for the following purposes:",
+        "list": {
+          "services": "Providing and managing our services",
+          "communication": "Communicating with users for updates, news, and offers",
+          "improvement": "Improving our website and services"
+        }
+      },
+      "informationDisclosure": {
+        "title": "Information Disclosure",
+        "content": "We do not sell, trade, or rent your personal data to third parties. We may share information with third-party service providers who help us operate the website and our business, provided they agree to keep this information confidential."
+      },
+      "informationProtection": {
+        "title": "Information Protection",
+        "content": "We take appropriate security measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "content": "You have the right to:",
+        "list": {
+          "access": "Request access to your personal data",
+          "correction": "Request correction or deletion of your data",
+          "objection": "Object to the processing of your data",
+          "restriction": "Request the restriction of processing your data",
+          "portability": "Transfer your data to another provider (data portability)"
+        }
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "We use cookies to enhance your experience on our website. Cookies are small text files stored on your device when you visit our site. You can control and manage cookies through your browser settings."
+      },
+      "policyChanges": {
+        "title": "Changes to the Privacy Policy",
+        "content": "We may update our Privacy Policy from time to time. We will post changes on this page and update the last modified date accordingly."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "If you have any questions or concerns regarding our Privacy Policy, please contact us at dinopizzavasilikou@gmail.com or at Agiou Georgiou 24, Vasiliko."
+      }
+    }
   }
 }
 
