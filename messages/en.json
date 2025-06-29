@@ -114,7 +114,9 @@
     "menu": "Menu",
     "aboutUs": "About Us",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "createYourPizza": " Create Your Own Pizza",
+    "address": "Agiou Georgiou 24, Vasiliko 340 02 "
   },
   "Footer": {
     "home": "Homepage",

@@ -27,14 +27,14 @@ export function Navigation() {
                                 <li className="locationMarker"><Link className=" p-0 mx-1"
                                                                      href="https://maps.app.goo.gl/s7GeKyEpES415HJP8"
                                                                      target=""><i
-                                    className="fas fa-map-marker"></i> Αγίου
-                                    Γεωργίου 24, Βασιλικό 340 02 </Link>
+                                    className="fas fa-map-marker"></i>  {messages('address')} <br/>
+                                     </Link>
                                 </li>
                             </ul>
                         </div>
 
                         <ul className="top-header-nav header-cta">
-                            <li><Link href='/yourpizza'> Φτιάξε τη δική σου πίτσα!</Link></li>
+                            <li><Link href='/yourpizza'>  {messages('createYourPizza')}</Link></li>
                         </ul>
 
                     </div>
