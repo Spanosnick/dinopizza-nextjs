@@ -272,6 +272,16 @@
       "bbq_sauce": "Σως μπάρμπεκιου",
       "corn": "Καλαμπόκι"
     }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "metaTitle": "Cookies | Dino Pizza",
+    "metaDescription": "Μάθετε πώς χρησιμοποιούμε τα cookies στην ιστοσελίδα μας και πώς μπορείτε να τα διαχειριστείτε.",
+    "pageTitle": "Cookies",
+    "description": "Χρησιμοποιούμε cookies για να διασφαλίσουμε την καλύτερη εμπειρία στην ιστοσελίδα μας και για αναλύσεις μέσω του Google Analytics. Συνεχίζοντας την περιήγηση, αποδέχεστε τη χρήση τους.\n",
+    "acceptAll": "Αποδοχή Όλων",
+    "rejectAll": "Απόρριψη",
+    "cookieSettings": "Ρυθμίσεις Cookies"
   }
 }
 

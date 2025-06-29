@@ -10,6 +10,7 @@ import {notFound} from 'next/navigation';
 import {routing} from '../../i18n/routing';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import {CookieConsentWrapper} from "@/components/CookieConsent/CookieConsentWrapper";
 
 
 export const metadata = {
@@ -34,6 +35,7 @@ export default async function  RootLayout({children,params}) {
         </head>
         <body >
         <NextIntlClientProvider>
+            <CookieConsentWrapper/>
             <MobileNavigation/>
             <Navigation/>
             <LanguageChanger/>

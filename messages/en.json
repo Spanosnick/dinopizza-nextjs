@@ -272,6 +272,16 @@
       "bbq_sauce": "BBQ Sauce",
       "corn": "Corn"
     }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "metaTitle": "Cookies | Dino Pizza",
+    "metaDescription": "Learn how we use cookies on our website and how you can manage them.",
+    "pageTitle": "Cookies",
+    "description": "We use cookies to ensure the best experience on our website and for analytics via Google Analytics. By continuing to browse, you agree to their use.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject ",
+    "cookieSettings": "Cookie Settings"
   }
 }
 
