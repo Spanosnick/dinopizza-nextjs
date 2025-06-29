@@ -235,6 +235,41 @@
         "content": "If you have any questions or concerns regarding our Privacy Policy, please contact us at dinopizzavasilikou@gmail.com or at Agiou Georgiou 24, Vasiliko."
       }
     }
+  },
+  "yourpizza": {
+    "title": "Create Your Own Pizza",
+    "metaTitle": "Create Your Own Pizza | Dino Pizza",
+    "metaDescription": "Create the perfect pizza with your favorite ingredients. Choose size, dough, and toppings for a unique taste.",
+    "pageTitle": "Create Your Own Pizza",
+    "pageTitle2": "Make your own pizza here!",
+    "description": "Choose your pizza size and add the ingredients you desire. The base includes sauce and cheese blend.",
+    "sizeLabel": "Choose size",
+    "size": {
+      "medium": "Medium",
+      "mediumPhil": "Medium with Philadelphia in the crust",
+      "large": "Large",
+      "largePhil": "Large with Philadelphia in the crust"
+    },
+    "availableToppings": "Available Toppings",
+    "items": {
+      "tomato": "Tomato",
+      "onion": "Onion",
+      "olives": "Olives",
+      "pepper": "Pepper",
+      "eggs": "Eggs",
+      "soutzouki": "Soutzouki",
+      "pepperoni": "Pepperoni",
+      "ham": "Ham",
+      "bacon": "Bacon",
+      "frankfurter_sausage": "Frankfurter Sausage",
+      "mushrooms": "Mushrooms",
+      "turkey_ham": "Turkey Ham",
+      "air_salami": "Air-Dried Salami",
+      "village_sausage": "Village Sausage",
+      "spicy": "Spicy",
+      "bbq_sauce": "BBQ Sauce",
+      "corn": "Corn"
+    }
   }
 }
 
