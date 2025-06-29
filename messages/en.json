@@ -160,6 +160,21 @@
     "newsLetterCta": "Subscribe",
     "formSuccessMessage": " Your message has been sent successfully! We will get back to you as soon as possible.",
     "formErrorMessage": " An error occurred while sending your message. Please try again."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "metaTitle": "Contact Dino Pizza | Get in Touch",
+    "metaDescription": "Have a question or need more information? Contact Dino Pizza and we will respond as soon as possible.",
+    "pageTitle": "Contact Us",
+    "findUs": "Find Us Here",
+    "addressLabel": "Address:",
+    "address": "Agiou Georgiou 24, Vasiliko 340 02",
+    "phone1": "Phone 1:",
+    "phone2": "Phone 2:",
+    "mobile": "Mobile:",
+    "email": "Email:",
+    "workingHours": "Working Hours",
+    "workingHoursText": "Monday - Sunday: 18:00 - 23:30"
   }
 }
 
