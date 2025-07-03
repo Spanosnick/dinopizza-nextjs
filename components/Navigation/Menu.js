@@ -33,7 +33,7 @@ export default function renderMenu(category,locale) {
             <ul className="submenu">
                 {category.subcategories.map(sub => (
                     <li key={sub.id} className="menu-item menu-item-has-children">
-                        <Link href={`/menu/${category.slug[locale]}/${sub.slug[locale]}`}>{sub.name[locale]}</Link>
+                        <Link  href={`#`}>{sub.name[locale]}</Link>
                         <ul className="submenu">
                             {sub.products.map(product => (
                                 <li key={product.id} className="menu-item">
@@ -52,3 +52,4 @@ export default function renderMenu(category,locale) {
 
 
 }
+

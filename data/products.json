@@ -33,8 +33,8 @@
                 "el": "dino-special"
               },
               "name": {
-                "en": "DINO SPECIAL",
-                "el": "DINO SPECIAL"
+                "en": "Dino special",
+                "el": "Dino special"
               },
               "description": {
                 "en": "Sauce, sujuk, pepperoni, ham, mushrooms, bacon, Frankfurt sausage, peppers, kefalotyri cheese, cheese blend",
@@ -58,7 +58,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/special.webp"
+              "image": "/img/pizza/special.webp"
             },
             {
               "id": "ala-creme",
@@ -67,8 +67,8 @@
                 "el": "alakrem"
               },
               "name": {
-                "en": "ALA CREME",
-                "el": "ΑΛΑ ΚΡΕΜ "
+                "en": "Ala creme",
+                "el": "Αλα κρεμ"
               },
               "description": {
                 "en": "Cream, mushrooms, bacon, tomato, cheese blend",
@@ -92,7 +92,7 @@
                   "price": 14.5
                 }
               ],
-              "image" : "/img/pizza/ala-krem.webp"
+              "image": "/img/pizza/ala-krem.webp"
             },
             {
               "id": "chicken",
@@ -101,8 +101,8 @@
                 "el": "kotopoulo"
               },
               "name": {
-                "en": "WITH CHICKEN",
-                "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+                "en": "With chicken",
+                "el": "Με κοτόπουλο"
               },
               "description": {
                 "en": "Sauce, chicken, onion, tomato, kefalotyri cheese, cheese blend",
@@ -115,7 +115,7 @@
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10.00
+                  "price": 10.0
                 },
                 {
                   "size": "big",
@@ -126,7 +126,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/chicken.webp"
+              "image": "/img/pizza/chicken.webp"
             },
             {
               "id": "cold-cut",
@@ -135,8 +135,8 @@
                 "el": "alantikon"
               },
               "name": {
-                "en": "COLD CUTS",
-                "el": "ΑΛΛΑΝΤΙΚΩΝ "
+                "en": "Cold cuts",
+                "el": "Αλλαντικών"
               },
               "description": {
                 "en": "Sauce, pepperoni, ham, air-dried salami, bacon, Frankfurt sausage, cheese blend",
@@ -149,7 +149,7 @@
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10.00
+                  "price": 10.0
                 },
                 {
                   "size": "big",
@@ -160,7 +160,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/coldcut.webp"
+              "image": "/img/pizza/coldcut.webp"
             },
             {
               "id": "barbeque",
@@ -169,8 +169,8 @@
                 "el": "barbekiou"
               },
               "name": {
-                "en": "BARBEQUE ",
-                "el": "ΜΠΑΡΜΠΕΚΙΟΥ "
+                "en": "Barbeque",
+                "el": "Μπάρμπεκιου"
               },
               "description": {
                 "en": "Sauce, ham, bacon, barbecue sauce, cheese blend",
@@ -194,7 +194,7 @@
                   "price": 13.5
                 }
               ],
-              "image" : "/img/pizza/barbeque.webp"
+              "image": "/img/pizza/barbeque.webp"
             },
             {
               "id": "chicken-barbeque",
@@ -203,8 +203,8 @@
                 "el": "kotopoulo-barbekiou"
               },
               "name": {
-                "en": "CHICKEN BARBECUE  ",
-                "el": "ΚΟΤΟΠΟΥΛΟ ΜΠΑΡΜΠΕΚΙΟΥ  "
+                "en": "Chicken barbecue",
+                "el": "Κοτόπουλο μπάρμπεκιου"
               },
               "description": {
                 "en": "Sauce, ham, bacon, barbecue sauce, cheese blend",
@@ -228,7 +228,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/chichen-barbeque.webp"
+              "image": "/img/pizza/chichen-barbeque.webp"
             },
             {
               "id": "chicken-ala-krem",
@@ -237,8 +237,8 @@
                 "el": "kotopoulo-alakrem"
               },
               "name": {
-                "en": "CHICKEN ALA CREME  ",
-                "el": "ΚΟΤΟΠΟΥΛΟ ΑΛΑ ΚΡΕΜ  "
+                "en": "Chicken ala creme",
+                "el": "Κοτόπουλο αλα κρεμ"
               },
               "description": {
                 "en": "Cream, mushrooms, chicken, peppers, kefalotyri cheese, cheese blend",
@@ -262,11 +262,12 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/chicken-ala-krem.webp"
+              "image": "/img/pizza/chicken-ala-krem.webp"
             }
           ]
         },
-        {"id": "italian",
+        {
+          "id": "italian",
           "slug": {
             "en": "italian",
             "el": "italiki"
@@ -275,6 +276,7 @@
             "en": "Italian",
             "el": "Ιταλική"
           },
+          "isNew": true,
           "products": [
             {
               "id": "karbonara",
@@ -283,8 +285,8 @@
                 "el": "karbonara"
               },
               "name": {
-                "en": "PIZZA CARBONARA",
-                "el": "ΠΙΤΣΑ ΚΑΡΜΠΟΝΑΡΑ"
+                "en": "Pizza carbonara",
+                "el": "Πίτσα καρμπονάρα"
               },
               "description": {
                 "en": "Cream, spicy, cheese blend, bacon",
@@ -300,7 +302,7 @@
                   "price": 10.9
                 }
               ],
-              "image" : "/img/pizza/italiki_carbonara.webp"
+              "image": "/img/pizza/italiki_carbonara.webp"
             },
             {
               "id": "pizza-polo",
@@ -309,8 +311,8 @@
                 "el": "pitsa-polo"
               },
               "name": {
-                "en": "PIZZA POLO",
-                "el": "ΠΙΤΣΑ POLO"
+                "en": "Pizza polo",
+                "el": "Πίτσα polo"
               },
               "description": {
                 "en": "Cream, mushrooms, chicken, cheese blend, onion, kefalotyri cheese",
@@ -326,7 +328,7 @@
                   "price": 12.9
                 }
               ],
-              "image" : "/img/pizza/italiki_polo.webp"
+              "image": "/img/pizza/italiki_polo.webp"
             },
             {
               "id": "four-seasons",
@@ -335,8 +337,8 @@
                 "el": "teseris-epoxes"
               },
               "name": {
-                "en": "4 SEASONS PIZZA ",
-                "el": "ΠΙΤΣΑ 4 ΕΠΟΧΕΣ"
+                "en": "4 seasons pizza",
+                "el": "Πίτσα 4 εποχές"
               },
               "description": {
                 "en": "Sauce, mushrooms, cheese blend, onion, tomato, pepper",
@@ -352,7 +354,7 @@
                   "price": 12.9
                 }
               ],
-              "image" : "/img/pizza/italiki_four_seasons.webp"
+              "image": "/img/pizza/italiki_four_seasons.webp"
             },
             {
               "id": "italian-pizza",
@@ -361,8 +363,8 @@
                 "el": "italiki-pitsa"
               },
               "name": {
-                "en": "ITALIAN PIZZA ",
-                "el": "ΠΙΤΣΑ ΙΤΑΛΙΚΗ"
+                "en": "Italian pizza",
+                "el": "Πίτσα ιταλική"
               },
               "description": {
                 "en": "Sauce, basil, garlic, cheese blend, tomato, kefalotyri cheese",
@@ -378,7 +380,7 @@
                   "price": 10.9
                 }
               ],
-              "image" : "/img/pizza/italian_pizza.webp"
+              "image": "/img/pizza/italian_pizza.webp"
             },
             {
               "id": "turkey-corn-pizza",
@@ -387,8 +389,8 @@
                 "el": "galopoula-kalampoki-pitsa"
               },
               "name": {
-                "en": "TURKEY - CORN PIZZA",
-                "el": "ΠΙΤΣΑ ΓΑΛΟΠΟΥΛΑ - ΚΑΛΑΜΠΟΚΙ"
+                "en": "Turkey - corn pizza",
+                "el": "Πίτσα γαλοπούλα - καλαμπόκι"
               },
               "description": {
                 "en": " Sauce, turkey, cheese blend, corn, pepper",
@@ -404,7 +406,7 @@
                   "price": 11.9
                 }
               ],
-              "image" : "/img/pizza/italian_galopoula.webp"
+              "image": "/img/pizza/italian_galopoula.webp"
             },
             {
               "id": "cheese-fill-pizza",
@@ -413,12 +415,12 @@
                 "el": "tyri-filaderfia-pitsa"
               },
               "name": {
-                "en": "CHEESE FILADELFIA PIZZA",
-                "el": "ΠΙΤΣΑ ΜΕ ΤΥΡΙΑ ΚΑΙ ΦΙΛΑΔΕΛΦΕΙΑ"
+                "en": "Cheese filadelfia pizza",
+                "el": "Πίτσα με τυρί και φιλαδέλφεια"
               },
               "description": {
                 "en": "Sauce, cheese blend, philadelphia cheese",
-                "el": "Σάλτσα, μείγμα τυριών,τυρί φιλαδέλφεια, "
+                "el": "Σάλτσα, μείγμα τυριών,τυρί Φιλαδέλφεια, "
               },
               "sizes": [
                 {
@@ -430,7 +432,7 @@
                   "price": 12.9
                 }
               ],
-              "image" : "/img/pizza/vezoubios.webp"
+              "image": "/img/pizza/italian_cheese.webp"
             }
           ]
         },
@@ -452,8 +454,8 @@
                 "el": "vezoubios"
               },
               "name": {
-                "en": "VESUVIUS ",
-                "el": "ΒΕΖΟΥΒΙΟΣ "
+                "en": "Vesuvius",
+                "el": "Βεζούβιος"
               },
               "description": {
                 "en": "Sauce, spicy, sujuk, pepperoni, bacon, Frankfurt sausage, cheese blend",
@@ -477,7 +479,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/vezoubios.webp"
+              "image": "/img/pizza/vezoubios.webp"
             },
             {
               "id": "spicy",
@@ -486,8 +488,8 @@
                 "el": "pikantiki"
               },
               "name": {
-                "en": "SPICY ",
-                "el": "ΠΙΚΑΝΤΙΚΗ"
+                "en": "Spicy",
+                "el": "Πικάντικη"
               },
               "description": {
                 "en": "Sauce, spicy, sujuk, pepperoni, bacon, kefalotyri cheese, cheese blend",
@@ -511,7 +513,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/spicy.webp"
+              "image": "/img/pizza/spicy.webp"
             },
             {
               "id": "mexican",
@@ -520,8 +522,8 @@
                 "el": "mexikaniki"
               },
               "name": {
-                "en": "MEXICAN",
-                "el": "ΜΕΞΙΚΑΝΙΚΗ"
+                "en": "Mexican",
+                "el": "Μεξικάνικη"
               },
               "description": {
                 "en": "Sauce, spicy, sujuk, onion, country sausage, peppers, cheese blend",
@@ -545,7 +547,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/mexican.webp"
+              "image": "/img/pizza/mexican.webp"
             },
             {
               "id": "politiki",
@@ -554,8 +556,8 @@
                 "el": "politiki"
               },
               "name": {
-                "en": "CITY STYLE",
-                "el": "ΠΟΛΙΤΙΚΗ"
+                "en": "City style",
+                "el": "Πολίτικη"
               },
               "description": {
                 "en": "Sauce, spicy, sujuk, pepperoni, egg, bacon, Frankfurt sausage, cheese blend",
@@ -579,7 +581,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/politiki.webp"
+              "image": "/img/pizza/politiki.webp"
             }
           ]
         },
@@ -601,8 +603,8 @@
                 "el": "margarita"
               },
               "name": {
-                "en": "MARGARITA ",
-                "el": "ΜΑΡΓΑΡΙΤΑ "
+                "en": "Margarita",
+                "el": "Μαργαρίτα"
               },
               "description": {
                 "en": "Sauce, tomato, cheese blend",
@@ -626,7 +628,7 @@
                   "price": 13.5
                 }
               ],
-              "image" : "/img/pizza/margarita.webp"
+              "image": "/img/pizza/margarita.webp"
             },
             {
               "id": "xoriatiki",
@@ -635,8 +637,8 @@
                 "el": "xoriatiki"
               },
               "name": {
-                "en": "GREEK VILLAGE  ",
-                "el": "ΧΩΡΙΑΤΙΚΗ "
+                "en": "Greek village",
+                "el": "Χωριάτικη"
               },
               "description": {
                 "en": "Feta, onion, tomato, olives, peppers, oregano, cheese blend",
@@ -660,7 +662,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/xoriatiki.webp"
+              "image": "/img/pizza/xoriatiki.webp"
             },
             {
               "id": "agrotiki",
@@ -669,8 +671,8 @@
                 "el": "agrotiki"
               },
               "name": {
-                "en": "COUNTRYSIDE",
-                "el": "ΑΓΡΟΤΙΚΗ "
+                "en": "Countryside",
+                "el": "Αγροτική"
               },
               "description": {
                 "en": "Sauce, mushrooms, onion, tomato, olives, peppers, cheese blend",
@@ -694,7 +696,7 @@
                   "price": 15.5
                 }
               ],
-              "image" : "/img/pizza/agrotiki.webp"
+              "image": "/img/pizza/agrotiki.webp"
             },
             {
               "id": "four-cheese",
@@ -703,8 +705,8 @@
                 "el": "tessera-tyria"
               },
               "name": {
-                "en": "WITH FOUR CHEESES",
-                "el": "ΜE ΤΕΣΣΕΡΑ ΤΥΡΙΑ "
+                "en": "With four cheeses",
+                "el": "Μe τέσσερα τυριά"
               },
               "description": {
                 "en": "Sauce, tuna, tomato, kefalotyri, gouda, Edam, mozzarella",
@@ -728,7 +730,7 @@
                   "price": 14.5
                 }
               ],
-              "image" : "/img/pizza/four-cheese.webp"
+              "image": "/img/pizza/four-cheese.webp"
             }
           ]
         },
@@ -750,8 +752,8 @@
                 "el": "sweet"
               },
               "name": {
-                "en": "SWEET ",
-                "el": "ΓΛΥΚΙΑ "
+                "en": "Sweet",
+                "el": "Γλυκιά"
               },
               "description": {
                 "en": " Chocolate, Oreo cookie, white chocolate crispy balls",
@@ -763,7 +765,7 @@
                   "price": 7.0
                 }
               ],
-              "image" : "/img/pizza/sweet.webp"
+              "image": "/img/pizza/sweet.webp"
             }
           ]
         }
@@ -793,8 +795,8 @@
             "el": "napolitana"
           },
           "name": {
-            "en": "NAPOLITAN",
-            "el": "ΝΑΠΟΛΙΤΕΝ"
+            "en": "Napolitan",
+            "el": "Ναπολιτεν"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, napoliten sauce, cheese blend",
@@ -810,8 +812,8 @@
             "el": "karbonara"
           },
           "name": {
-            "en": "CARBONARA",
-            "el": "ΚΑΡΜΠΟΝΑΡΑ"
+            "en": "Carbonara",
+            "el": "Καρμπονάρα"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, ham, cream, pepper, cheese blend",
@@ -827,8 +829,8 @@
             "el": "alakrem"
           },
           "name": {
-            "en": "ALA CREME",
-            "el": "ΑΛΑ ΚΡΕΜ "
+            "en": "Ala creme",
+            "el": "Αλα κρεμ"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, cream, bacon, cheese blend",
@@ -844,8 +846,8 @@
             "el": "special"
           },
           "name": {
-            "en": "SPECIAL",
-            "el": "SPECIAL "
+            "en": "Special",
+            "el": "Special"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, napoliten sauce, mushrooms, ham, peppers, cheese blend",
@@ -861,8 +863,8 @@
             "el": "me-tessera-tyria"
           },
           "name": {
-            "en": "FOUR CHEESE ",
-            "el": "ΜΕ 4 ΤΥΡΙΑ  "
+            "en": "Four cheese",
+            "el": "Με 4 τυρια"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, cream, roquefort, gouda, edam, mozzarella",
@@ -878,8 +880,8 @@
             "el": "mpolonez"
           },
           "name": {
-            "en": "BOLOGNESE ",
-            "el": "ΜΠΟΛΟΝΕΖ  "
+            "en": "Bolognese",
+            "el": "Μπολονεζ"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, minced beef, napoliten sauce, cheese blend",
@@ -895,8 +897,8 @@
             "el": "mpolonez"
           },
           "name": {
-            "en": "CHICKEN PASTA  ",
-            "el": "ΚΟΤΟΜΑΚΑΡΟΝΑΔΑ  "
+            "en": "Chicken pasta",
+            "el": "Κοτομακαρονάδα"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, mushrooms, chicken, cream, cheese blend",
@@ -912,8 +914,8 @@
             "el": "dino"
           },
           "name": {
-            "en": "DINO",
-            "el": "DINO"
+            "en": "Dino",
+            "el": "Dino"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, mushrooms, ham, bacon, cream, cheese blend",
@@ -948,8 +950,8 @@
             "el": "karbonara-italiana"
           },
           "name": {
-            "en": "CARBONARA",
-            "el": "ΚΑΡΜΠΟΝΑΡΑ"
+            "en": "Carbonara",
+            "el": "Καρμπονάρα"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, bacon, cream, parmesan",
@@ -965,8 +967,8 @@
             "el": "polo-kotopoulo"
           },
           "name": {
-            "en": "POLO (CHICKEN)",
-            "el": "POLO (ΚΟΤΟΠΟΥΛΟ) "
+            "en": "Polo (chicken)",
+            "el": "Polo (κοτόπουλο)"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, chicken, mushrooms, cream, parmesan",
@@ -982,8 +984,8 @@
             "el": "funchi-pasta"
           },
           "name": {
-            "en": "FUNCHI PASTA",
-            "el": "FUNCHI PASTA"
+            "en": "Funchi pasta",
+            "el": "Funchi pasta"
           },
           "description": {
             "en": "Spaghetti, kefalotyri cheese, cream, mushrooms, parmesan",
@@ -1018,8 +1020,8 @@
             "el": "salata-sef"
           },
           "name": {
-            "en": "CHEF SALAD",
-            "el": "ΣΑΛΑΤΑ ΣΕΦ"
+            "en": "Chef salad",
+            "el": "Σαλάτα σεφ"
           },
           "description": {
             "en": "Lettuce, cucumber, tomato, ham, edam cheese, egg, chef sauce",
@@ -1035,8 +1037,8 @@
             "el": "salata-tonos"
           },
           "name": {
-            "en": "TUNA SALAD",
-            "el": "ΣΑΛΑΤΑ ΤΟΝΟΣ"
+            "en": "Tuna salad",
+            "el": "Σαλάτα τόνος"
           },
           "description": {
             "en": "Lettuce, cucumber, onion, crouton, tuna, mayonnaise",
@@ -1052,8 +1054,8 @@
             "el": "salata-kaisar"
           },
           "name": {
-            "en": "CAESAR SALAD",
-            "el": "ΣΑΛΑΤΑ CAESAR"
+            "en": "Caesar salad",
+            "el": "Σαλάτα καίσαρα"
           },
           "description": {
             "en": "Lettuce, cucumber, corn, croutons, chicken, edam cheese, caesar dressing",
@@ -1069,8 +1071,8 @@
             "el": "salata-parmezan-bacon"
           },
           "name": {
-            "en": "PARMESAN-BACON",
-            "el": "ΠΑΡΜΕΖΑΝ-ΜΠΕΪΚΟΝ"
+            "en": "Parmesan-bacon",
+            "el": "Παρμεζάνα-μπέικον"
           },
           "description": {
             "en": "Lettuce, cucumber, corn, croutons, bacon, parmesan flakes, vinaigrette",
@@ -1086,8 +1088,8 @@
             "el": "salata-parmezan-kotopoulo"
           },
           "name": {
-            "en": "PARMESAN-CHICKEN",
-            "el": "ΠΑΡΜΕΖΑΝ-ΚΟΤΟΠΟΥΛΟ"
+            "en": "Parmesan-chicken",
+            "el": "Παρμεζάνα-κοτόπουλο"
           },
           "description": {
             "en": "Lettuce, cucumber, corn, croutons, chicken, parmesan flakes, vinaigrette",
@@ -1103,8 +1105,8 @@
             "el": "salata-nistisimi"
           },
           "name": {
-            "en": "FASTING",
-            "el": "ΝΗΣΤΙΣΙΜΗ"
+            "en": "Fasting",
+            "el": "Νηστίσιμη"
           },
           "description": {
             "en": "Lettuce, cucumber, corn, croutons, parmesan flakes, vinaigrette",
@@ -1120,8 +1122,8 @@
             "el": "salata-kotopoulo"
           },
           "name": {
-            "en": "CHICKEN SALAD",
-            "el": "ΚΟΤΟΣΑΛΑΤΑ"
+            "en": "Chicken salad",
+            "el": "Κοτοσαλάτα"
           },
           "description": {
             "en": "Lettuce, cucumber, tomato, chicken, edam cheese, mayonnaise",
@@ -1156,8 +1158,8 @@
             "el": "dino-special"
           },
           "name": {
-            "en": "DINO SPECIAL",
-            "el": "DINO SPECIAL"
+            "en": "Dino special",
+            "el": "Dino special"
           },
           "description": {
             "en": "Sauce, ham, pepperoni, feta cheese, tomato, kefalotyri cheese, cheese blend",
@@ -1173,8 +1175,8 @@
             "el": "xoriatiki-kaltsone"
           },
           "name": {
-            "en": "GREEK VILLAGE",
-            "el": "ΧΩΡΙΑΤΙΚΗ"
+            "en": "Greek village",
+            "el": "Χωριάτικη"
           },
           "description": {
             "en": "Sauce, feta cheese, onion, tomato, pepper, kefalotyri cheese, cheese blend",
@@ -1190,8 +1192,8 @@
             "el": "kaltsone-me-kotopoulo"
           },
           "name": {
-            "en": "WITH CHICKEN",
-            "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+            "en": "With chicken",
+            "el": "Με κοτόπουλο"
           },
           "description": {
             "en": "Sauce, chicken, tomato, kefalotyri cheese, cheese blend",
@@ -1207,8 +1209,8 @@
             "el": "pikantiki-kaltsone"
           },
           "name": {
-            "en": "SPICY",
-            "el": "ΠΙΚΑΝΤΙΚΗ"
+            "en": "Spicy",
+            "el": "Πικάντικη"
           },
           "description": {
             "en": "Sauce, sujuk, pepperoni, bacon, kefalotyri cheese, cheese blend",
@@ -1228,7 +1230,7 @@
       },
       "name": {
         "en": "Penirli",
-        "el": "Πενιρλί"
+        "el": "Πεϊνιρλί"
       },
       "description": {
         "en": "Penirli is a traditional Greek food, consisting of a long dough filled with rich ingredients such as cheese or cold cuts, and baked until it has a crispy surface and golden color, offering a delicious combination of flavors and aromas.",
@@ -1243,8 +1245,8 @@
             "el": "eidiko-penirli"
           },
           "name": {
-            "en": "SPECIAL",
-            "el": "SPECIAL"
+            "en": "Special",
+            "el": "Special"
           },
           "description": {
             "en": "Ham, bacon, cheese blend",
@@ -1260,8 +1262,8 @@
             "el": "penirli-me-kotopoulo"
           },
           "name": {
-            "en": "WITH CHICKEN",
-            "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+            "en": "With chicken",
+            "el": "Με κοτόπουλο"
           },
           "description": {
             "en": "Chicken, mushrooms, cheese blend",
@@ -1277,8 +1279,8 @@
             "el": "xoriatiko-penirli"
           },
           "name": {
-            "en": "GREEK",
-            "el": "ΧΩΡΙΑΤΙΚΟ"
+            "en": "Greek",
+            "el": "Χωριάτικο"
           },
           "description": {
             "en": "Feta cheese, onion, tomato, pepper, oregano, cheese blend",
@@ -1294,8 +1296,8 @@
             "el": "pikantiko-penirli"
           },
           "name": {
-            "en": "SPICY",
-            "el": "ΠΙΚΑΝΤΙΚΟ"
+            "en": "Spicy",
+            "el": "Πικάντικο"
           },
           "description": {
             "en": "Sujuk, pepperoni, bacon, cheese blend",
@@ -1330,8 +1332,8 @@
             "el": "stroundel-skombo"
           },
           "name": {
-            "en": "GARLIC BREAD (8 PCS)",
-            "el": "ΣΚΟΡΔΟΨΩΜΙ (8 ΤΜΗΜΑΤΑ)"
+            "en": "Garlic bread (8 pcs)",
+            "el": "Σκορδόψωμο (8 κομμάτια)"
           },
           "description": {
             "en": "Cheese blend, garlic",
@@ -1347,8 +1349,8 @@
             "el": "stroundel-elies"
           },
           "name": {
-            "en": "OLIVE BREAD (8 PCS)",
-            "el": "ΨΩΜΙ ΜΕ ΕΛΙΕΣ (8 ΤΜΗΜΑΤΑ)"
+            "en": "Olive bread (8 pcs)",
+            "el": "Ψωμί με ελιές (8 κομμάτια)"
           },
           "description": {
             "en": "Cheese blend, olives",
@@ -1364,8 +1366,8 @@
             "el": "stroundel-dino"
           },
           "name": {
-            "en": "DINO (8 PCS)",
-            "el": "DINO (8 ΤΜΗΜΑΤΑ)"
+            "en": "Dino (8 pcs)",
+            "el": "Dino (8 κομμάτια)"
           },
           "description": {
             "en": "Cheese blend, ham, bacon",
@@ -1400,8 +1402,8 @@
             "el": "glossa-me-zambon-galopoula"
           },
           "name": {
-            "en": "WITH HAM OR TURKEY",
-            "el": "ΜΕ ΖΑΜΠΟΝ 'Η ΓΑΛΟΠΟΥΛΑ"
+            "en": "With ham or turkey",
+            "el": "Με ζαμπόν 'η γαλοπούλα"
           },
           "description": {
             "en": "Dino sauce, ham or turkey, tomato, cheese blend",
@@ -1417,8 +1419,8 @@
             "el": "glossa-me-peperone"
           },
           "name": {
-            "en": "WITH PEPPERONI",
-            "el": "ΜΕ ΠΕΠΕΡΟΝΕ"
+            "en": "With pepperoni",
+            "el": "Με πεπερόνι"
           },
           "description": {
             "en": "Dino sauce, pepperoni, tomato, cheese blend",
@@ -1434,8 +1436,8 @@
             "el": "glossa-me-kotopoulo"
           },
           "name": {
-            "en": "WITH CHICKEN",
-            "el": "ΜΕ ΚΟΤΟΠΟΥΛΟ"
+            "en": "With chicken",
+            "el": "Με κοτόπουλο"
           },
           "description": {
             "en": "Dino sauce, chicken, tomato, cheese blend",
@@ -1451,8 +1453,8 @@
             "el": "glossa-dino"
           },
           "name": {
-            "en": "DINO",
-            "el": "DINO"
+            "en": "Dino",
+            "el": "Dino"
           },
           "description": {
             "en": "Dino sauce, ham, pepperoni, bacon, tomato, cheese blend",
@@ -1482,171 +1484,261 @@
       "products": [
         {
           "id": "coca_cola_330",
-          "slug": { "en": "coca-cola-330ml", "el": "coca-kola-330ml" },
-          "name": { "en": "COCA COLA 330ML", "el": "COCA COLA 330ML" },
+          "slug": {
+            "en": "coca-cola-330ml",
+            "el": "coca-kola-330ml"
+          },
+          "name": {
+            "en": "Coca cola 330ml",
+            "el": "Coca cola 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.20,
+          "price": 1.2,
           "image": "/img/drinks/coca.jpg"
         },
         {
           "id": "sprite_330",
-          "slug": { "en": "sprite-330ml", "el": "sprite-330ml" },
-          "name": { "en": "SPRITE 330ML", "el": "SPRITE 330ML" },
+          "slug": {
+            "en": "sprite-330ml",
+            "el": "sprite-330ml"
+          },
+          "name": {
+            "en": "Sprite 330ml",
+            "el": "Sprite 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.20,
+          "price": 1.2,
           "image": "/img/drinks/sprite.jpg"
         },
         {
           "id": "fanta_330",
-          "slug": { "en": "fanta-330ml", "el": "fanta-330ml" },
-          "name": { "en": "FANTA 330ML", "el": "FANTA 330ML" },
+          "slug": {
+            "en": "fanta-330ml",
+            "el": "fanta-330ml"
+          },
+          "name": {
+            "en": "Fanta 330ml",
+            "el": "Fanta 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.20,
+          "price": 1.2,
           "image": "/img/drinks/fanta.png"
         },
         {
           "id": "soda_330",
-          "slug": { "en": "soda-330ml", "el": "soda-330ml" },
-          "name": { "en": "SODA 330ML", "el": "ΣΟΔΑ 330ML" },
+          "slug": {
+            "en": "soda-330ml",
+            "el": "soda-330ml"
+          },
+          "name": {
+            "en": "Soda 330ml",
+            "el": "Σοδα 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.20,
+          "price": 1.2,
           "image": "/img/drinks/soda.webp"
         },
         {
           "id": "coca_cola_500",
-          "slug": { "en": "coca-cola-500ml", "el": "coca-kola-500ml" },
-          "name": { "en": "COCA COLA 500ML", "el": "COCA COLA 500ML" },
+          "slug": {
+            "en": "coca-cola-500ml",
+            "el": "coca-kola-500ml"
+          },
+          "name": {
+            "en": "Coca cola 500ml",
+            "el": "Coca cola 500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.50,
+          "price": 1.5,
           "image": "/img/drinks/coca500.jpg"
         },
         {
           "id": "coca_cola_zero_500",
-          "slug": { "en": "coca-cola-zero-500ml", "el": "coca-kola-zero-500ml" },
-          "name": { "en": "COCA COLA ZERO 500ML", "el": "COCA COLA ZERO 500ML" },
+          "slug": {
+            "en": "coca-cola-zero-500ml",
+            "el": "coca-kola-zero-500ml"
+          },
+          "name": {
+            "en": "Coca cola zero 500ml",
+            "el": "Coca cola zero 500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.50,
+          "price": 1.5,
           "image": "/img/drinks/cocazero500.jpg"
         },
         {
           "id": "coca_cola_zero_1500",
-          "slug": { "en": "coca-cola-zero-1500ml", "el": "coca-kola-zero-1500ml" },
-          "name": { "en": "COCA COLA ZERO 1500ML", "el": "COCA COLA ZERO 1500ML" },
+          "slug": {
+            "en": "coca-cola-zero-1500ml",
+            "el": "coca-kola-zero-1500ml"
+          },
+          "name": {
+            "en": "Coca cola zero 1500ml",
+            "el": "Coca cola zero 1500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 2.40,
+          "price": 2.4,
           "image": "/img/drinks/cocazero1500.jpg"
         },
         {
           "id": "sprite_1500",
-          "slug": { "en": "sprite-1500ml", "el": "sprite-1500ml" },
-          "name": { "en": "SPRITE 1500ML", "el": "SPRITE 1500ML" },
+          "slug": {
+            "en": "sprite-1500ml",
+            "el": "sprite-1500ml"
+          },
+          "name": {
+            "en": "Sprite 1500ml",
+            "el": "Sprite 1500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 2.40,
+          "price": 2.4,
           "image": "/img/drinks/sprite1500.jpeg"
         },
         {
           "id": "fanta_1500",
-          "slug": { "en": "fanta-1500ml", "el": "fanta-1500ml" },
-          "name": { "en": "FANTA 1500ML", "el": "FANTA 1500ML" },
+          "slug": {
+            "en": "fanta-1500ml",
+            "el": "fanta-1500ml"
+          },
+          "name": {
+            "en": "Fanta 1500ml",
+            "el": "Fanta 1500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 2.40,
+          "price": 2.4,
           "image": "/img/drinks/fanta1500.jpg"
         },
         {
           "id": "heineken_330",
-          "slug": { "en": "heineken-330ml", "el": "heineken-330ml" },
-          "name": { "en": "HEINEKEN 330ML", "el": "HEINEKEN 330ML" },
+          "slug": {
+            "en": "heineken-330ml",
+            "el": "heineken-330ml"
+          },
+          "name": {
+            "en": "Heineken 330ml",
+            "el": "Heineken 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.70,
+          "price": 1.7,
           "image": "/img/drinks/heineken.jpg"
         },
         {
           "id": "amstel_330",
-          "slug": { "en": "amstel-330ml", "el": "amstel-330ml" },
-          "name": { "en": "AMSTEL 330ML", "el": "AMSTEL 330ML" },
+          "slug": {
+            "en": "amstel-330ml",
+            "el": "amstel-330ml"
+          },
+          "name": {
+            "en": "Amstel 330ml",
+            "el": "Amstel 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.50,
+          "price": 1.5,
           "image": "/img/drinks/amstel.jpg"
         },
         {
           "id": "alfa_330",
-          "slug": { "en": "alfa-330ml", "el": "alfa-330ml" },
-          "name": { "en": "ALFA 330ML", "el": "ALFA 330ML" },
+          "slug": {
+            "en": "alfa-330ml",
+            "el": "alfa-330ml"
+          },
+          "name": {
+            "en": "Alfa 330ml",
+            "el": "Alfa 330ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.50,
+          "price": 1.5,
           "image": "/img/drinks/alfa.jpg"
         },
         {
           "id": "white_wine_1500",
-          "slug": { "en": "white-wine-1500ml", "el": "krasi-lefko-1500ml" },
-          "name": { "en": "WHITE WINE 1500ML", "el": "ΚΡΑΣΙ ΛΕΥΚΟ 1500ML" },
+          "slug": {
+            "en": "white-wine-1500ml",
+            "el": "krasi-lefko-1500ml"
+          },
+          "name": {
+            "en": "White wine 1500ml",
+            "el": "Κρασι λευκο 1500ml"
+          },
           "description": {
             "en": "White wine 'G. Kechris'",
             "el": "ΛΕΥΚΟΣ ΟΙΝΟΣ 'Γ. ΚΕΧΡΗΣ'"
           },
-          "price": 3.20,
+          "price": 3.2,
           "image": "/img/drinks/wine.webp"
         },
         {
           "id": "water_500",
-          "slug": { "en": "water-500ml", "el": "nero-500ml" },
-          "name": { "en": "WATER 500ML", "el": "ΝΕΡΟ 500ML" },
+          "slug": {
+            "en": "water-500ml",
+            "el": "nero-500ml"
+          },
+          "name": {
+            "en": "Water 500ml",
+            "el": "Νερο 500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 0.50,
+          "price": 0.5,
           "image": "/img/drinks/water.jpg"
         },
         {
           "id": "water_1500",
-          "slug": { "en": "water-1500ml", "el": "nero-1500ml" },
-          "name": { "en": "WATER 1500ML", "el": "ΝΕΡΟ 1500ML" },
+          "slug": {
+            "en": "water-1500ml",
+            "el": "nero-1500ml"
+          },
+          "name": {
+            "en": "Water 1500ml",
+            "el": "Νερο 1500ml"
+          },
           "description": {
             "en": "",
             "el": ""
           },
-          "price": 1.00,
+          "price": 1.0,
           "image": "/img/drinks/water1500.jpg"
         }
-      ]
+      ],
+      "bannerImg": "drinks.webp"
     }
-
   ]
 }

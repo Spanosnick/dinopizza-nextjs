@@ -15,7 +15,7 @@ export default function Contact() {
     return (
         <>
             <div className="subheader dark-overlay dark-overlay-2"
-                 style={{backgroundImage:'/img/subheader.webp'}}>
+                 style={{backgroundImage:"url('/img/coming1.webp')"}}>
                 <div className="container">
                     <div className="subheader-inner">
                         <h1> {messages('pageTitle')}</h1>

@@ -60,9 +60,9 @@ export function Navigation() {
                             <Link href="about"> {messages('aboutUs')} </Link>
                         </li>
 
-                        <li className="menu-item  ">
-                            <Link href="blog">  {messages('blog')}</Link>
-                        </li>
+                        {/*<li className="menu-item  ">*/}
+                        {/*    <Link href="blog">  {messages('blog')}</Link>*/}
+                        {/*</li>*/}
                         <li className="menu-item">
                             <Link href="contact">  {messages('contact')}</Link>
                         </li>
