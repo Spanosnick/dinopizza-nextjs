@@ -142,7 +142,10 @@
     "big": "Large",
     "big-fill": "Large with Philadelphia on the rim",
     "menuCta": "Check the menu",
-    "price": "Price"
+    "price": "Price",
+    "disclaimerItalian1": "All pizzas in the Italian category are made with thin crust.",
+    "disclaimerItalian2": "Upon request, they can also be prepared with classic dough.",
+    "disclaimerThinPizza": "Upon request, it can be prepared with thin crust."
   },
   "about": {
     "title": "About Us",

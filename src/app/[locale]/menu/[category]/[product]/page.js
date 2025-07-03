@@ -43,7 +43,7 @@ export async function generateStaticParams() {
 
 export default  function ProductPage({params}) {
     const {locale, category,product} =  params;
-    const {name,description,slug,sizes,price,image} =  findProductBySlug(category, product, locale);
+    const {name,description,slug,sizes,price,image,categoryId} =  findProductBySlug(category, product, locale);
     const messages = useTranslations('ProductDetails');
     return (<div className="section product-single">
         <div className="container">
@@ -58,7 +58,10 @@ export default  function ProductPage({params}) {
                     <div className="product-content">
                         <h2 className="title">{name} </h2>
                         <p> {description}</p>
+
                         <SizeSelector sizes={sizes} price={price} />
+                        {categoryId == 'pizzas' && <p>{messages('disclaimerItalian1')}</p> }
+                        {categoryId == 'pizzas' &&<p>{messages('disclaimerItalian2')}</p> }
                         <Link href="/menu" className="order-item btn-custom btn-sm shadow-none w-100"> {messages('menuCta')}  </Link>
                     </div>
                 </div>
