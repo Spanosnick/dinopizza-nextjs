@@ -58,7 +58,7 @@
                   "price": 15.5
                 }
               ],
-                "image" : "/img/pizza/special.webp"
+              "image" : "/img/pizza/special.webp"
             },
             {
               "id": "ala-creme",
@@ -263,6 +263,174 @@
                 }
               ],
               "image" : "/img/pizza/chicken-ala-krem.webp"
+            }
+          ]
+        },
+        {"id": "italian",
+          "slug": {
+            "en": "italian",
+            "el": "italiki"
+          },
+          "name": {
+            "en": "Italian",
+            "el": "Ιταλική"
+          },
+          "products": [
+            {
+              "id": "karbonara",
+              "slug": {
+                "en": "carbonara",
+                "el": "karbonara"
+              },
+              "name": {
+                "en": "PIZZA CARBONARA",
+                "el": "ΠΙΤΣΑ ΚΑΡΜΠΟΝΑΡΑ"
+              },
+              "description": {
+                "en": "Cream, spicy, cheese blend, bacon",
+                "el": "Κρέμα Γάλακτος, μείγμα τυριών, μπέικον"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7
+                },
+                {
+                  "size": "big",
+                  "price": 10.9
+                }
+              ],
+              "image" : "/img/pizza/italiki_carbonara.webp"
+            },
+            {
+              "id": "pizza-polo",
+              "slug": {
+                "en": "pizza-polo",
+                "el": "pitsa-polo"
+              },
+              "name": {
+                "en": "PIZZA POLO",
+                "el": "ΠΙΤΣΑ POLO"
+              },
+              "description": {
+                "en": "Cream, mushrooms, chicken, cheese blend, onion, kefalotyri cheese",
+                "el": "Κρέμα γάλακτος, μανιτάρια, κοτόπουλο, μείγμα τυριών, κρεμμύδι, κεφαλοτύρι"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                }
+              ],
+              "image" : "/img/pizza/italiki_polo.webp"
+            },
+            {
+              "id": "four-seasons",
+              "slug": {
+                "en": "four-seasons",
+                "el": "teseris-epoxes"
+              },
+              "name": {
+                "en": "4 SEASONS PIZZA ",
+                "el": "ΠΙΤΣΑ 4 ΕΠΟΧΕΣ"
+              },
+              "description": {
+                "en": "Sauce, mushrooms, cheese blend, onion, tomato, pepper",
+                "el": "Σάλτσα, Μανιτάρια, μείγμα τυριών, κρεμμύδι, ντομάτα, πιπεριά"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                }
+              ],
+              "image" : "/img/pizza/italiki_four_seasons.webp"
+            },
+            {
+              "id": "italian-pizza",
+              "slug": {
+                "en": "italian-pizza",
+                "el": "italiki-pitsa"
+              },
+              "name": {
+                "en": "ITALIAN PIZZA ",
+                "el": "ΠΙΤΣΑ ΙΤΑΛΙΚΗ"
+              },
+              "description": {
+                "en": "Sauce, basil, garlic, cheese blend, tomato, kefalotyri cheese",
+                "el": "Σάλτσα, βασιλικό, σκόρδο, μείγμα τυριών, ντομάτα, κεφαλοτύρι"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7.0
+                },
+                {
+                  "size": "big",
+                  "price": 10.9
+                }
+              ],
+              "image" : "/img/pizza/italian_pizza.webp"
+            },
+            {
+              "id": "turkey-corn-pizza",
+              "slug": {
+                "en": "turkey-corn-pizza",
+                "el": "galopoula-kalampoki-pitsa"
+              },
+              "name": {
+                "en": "TURKEY - CORN PIZZA",
+                "el": "ΠΙΤΣΑ ΓΑΛΟΠΟΥΛΑ - ΚΑΛΑΜΠΟΚΙ"
+              },
+              "description": {
+                "en": " Sauce, turkey, cheese blend, corn, pepper",
+                "el": "Σάλτσα, γαλοπούλα, μείγμα τυριών, καλαμπόκι πιπεριά"
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 7.7
+                },
+                {
+                  "size": "big",
+                  "price": 11.9
+                }
+              ],
+              "image" : "/img/pizza/italian_galopoula.webp"
+            },
+            {
+              "id": "cheese-fill-pizza",
+              "slug": {
+                "en": "cheese-fill-pizza",
+                "el": "tyri-filaderfia-pitsa"
+              },
+              "name": {
+                "en": "CHEESE FILADELFIA PIZZA",
+                "el": "ΠΙΤΣΑ ΜΕ ΤΥΡΙΑ ΚΑΙ ΦΙΛΑΔΕΛΦΕΙΑ"
+              },
+              "description": {
+                "en": "Sauce, cheese blend, philadelphia cheese",
+                "el": "Σάλτσα, μείγμα τυριών,τυρί φιλαδέλφεια, "
+              },
+              "sizes": [
+                {
+                  "size": "medium",
+                  "price": 8.5
+                },
+                {
+                  "size": "big",
+                  "price": 12.9
+                }
+              ],
+              "image" : "/img/pizza/vezoubios.webp"
             }
           ]
         },
@@ -604,14 +772,14 @@
     },
     {
       "id": "pastas",
-        "slug": {
-            "en": "baked-pastas",
-            "el": "zymarika-fournou"
-        },
-        "name": {
-            "en": "Baked Pastas",
-            "el": "Ζυμαρικά Φούρνου"
-        },
+      "slug": {
+        "en": "baked-pastas",
+        "el": "zymarika-fournou"
+      },
+      "name": {
+        "en": "Baked Pastas",
+        "el": "Ζυμαρικά Φούρνου"
+      },
       "description": {
         "en": "Made with the purest recipe, bringing Italian tradition to your plate. Try now and elevate your meal!",
         "el": "Φτιαγμένα με την πιο αγνή συνταγή, φέρνουν την Ιταλική παράδοση στο πιάτο σας. Δοκιμάστε τώρα και απογειώστε το γεύμα σας!"
@@ -633,7 +801,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, σάλτσα νάπολη, μείγμα τυριών"
           },
           "price": 5.5,
-            "image": "/img/pasta/napoliten.webp"
+          "image": "/img/pasta/napoliten.webp"
         },
         {
           "id": "carbonara",
@@ -788,7 +956,7 @@
             "el": "Σπαγγέτι, κεφαλοτύρι, μπέικον, κρέμα γάλακτος, παρμεζάνα"
           },
           "price": 6.3,
-            "image": "/img/pasta/carbonara-italian.webp"
+          "image": "/img/pasta/carbonara-italian.webp"
         },
         {
           "id": "polo",

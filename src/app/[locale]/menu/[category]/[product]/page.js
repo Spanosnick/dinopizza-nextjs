@@ -41,10 +41,9 @@ export async function generateStaticParams() {
 }
 
 
-export default function ProductPage({params}) {
-    const {locale, category,product} = params;
-    const {id,name,description,slug,sizes,price,image} = findProductBySlug(category, product, locale);
-    console.log(price)
+export default  function ProductPage({params}) {
+    const {locale, category,product} =  params;
+    const {name,description,slug,sizes,price,image} =  findProductBySlug(category, product, locale);
     const messages = useTranslations('ProductDetails');
     return (<div className="section product-single">
         <div className="container">
