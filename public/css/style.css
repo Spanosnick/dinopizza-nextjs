@@ -4299,6 +4299,17 @@ td.quantity{
 .product .product-thumb img,.product-thumb img{
   margin: 0 auto;
   border-radius: 1em;
+  position: relative;
+
+}
+.product-thumb  .newLabel{
+    position: absolute;
+    top: 1.5em;
+    left: 1.6em;
+    background-color: #ED4E53;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
 
 }
 

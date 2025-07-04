@@ -11,6 +11,8 @@ import {routing} from '../../i18n/routing';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import {CookieConsentWrapper} from "@/components/CookieConsent/CookieConsentWrapper";
+import {HomepagePopUp} from "@/components/Homepage/HomepagePopUp";
+
 
 
 export const metadata = {
@@ -27,6 +29,7 @@ export default async function  RootLayout({children,params}) {
         <html lang={locale}>
         <head>
             <link rel="stylesheet" href="/css/style.css"/>
+            <link rel="stylesheet" href="/css/modal.css"/>
             <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.webp"/>
             <link rel="icon" type="image/png" href="/img/logo.webp" sizes="96x96"/>
             <link rel="icon" type="image/svg+xml" href="/img/logo.webp"/>
@@ -35,6 +38,7 @@ export default async function  RootLayout({children,params}) {
         </head>
         <body >
         <NextIntlClientProvider>
+            <HomepagePopUp/>
             <CookieConsentWrapper/>
             <MobileNavigation/>
             <Navigation/>

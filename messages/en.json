@@ -285,6 +285,13 @@
     "acceptAll": "Accept All",
     "rejectAll": "Reject ",
     "cookieSettings": "Cookie Settings"
+  },
+  "introModal": {
+    "title": "New Category: Italian Pizza",
+    "text1": "Discover the authentic Italian experience with our new pizzas that stand out for their thin and crispy crust.",
+    "text2": "The favorite flavors you know, now with Italian finesse and a lighter touch!",
+    "cta": "See All Italian Pizzas"
   }
+
 }
 

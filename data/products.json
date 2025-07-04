@@ -292,6 +292,7 @@
                 "en": "Cream, spicy, cheese blend, bacon",
                 "el": "Κρέμα Γάλακτος, μείγμα τυριών, μπέικον"
               },
+              "isNew": true,
               "sizes": [
                 {
                   "size": "medium",
@@ -318,6 +319,7 @@
                 "en": "Cream, mushrooms, chicken, cheese blend, onion, kefalotyri cheese",
                 "el": "Κρέμα γάλακτος, μανιτάρια, κοτόπουλο, μείγμα τυριών, κρεμμύδι, κεφαλοτύρι"
               },
+              "isNew": true,
               "sizes": [
                 {
                   "size": "medium",
@@ -344,6 +346,7 @@
                 "en": "Sauce, mushrooms, cheese blend, onion, tomato, pepper",
                 "el": "Σάλτσα, Μανιτάρια, μείγμα τυριών, κρεμμύδι, ντομάτα, πιπεριά"
               },
+              "isNew": true,
               "sizes": [
                 {
                   "size": "medium",
@@ -370,6 +373,7 @@
                 "en": "Sauce, basil, garlic, cheese blend, tomato, kefalotyri cheese",
                 "el": "Σάλτσα, βασιλικό, σκόρδο, μείγμα τυριών, ντομάτα, κεφαλοτύρι"
               },
+              "isNew": true,
               "sizes": [
                 {
                   "size": "medium",
@@ -396,6 +400,7 @@
                 "en": " Sauce, turkey, cheese blend, corn, pepper",
                 "el": "Σάλτσα, γαλοπούλα, μείγμα τυριών, καλαμπόκι πιπεριά"
               },
+              "isNew": true,
               "sizes": [
                 {
                   "size": "medium",
@@ -422,6 +427,7 @@
                 "en": "Sauce, cheese blend, philadelphia cheese",
                 "el": "Σάλτσα, μείγμα τυριών,τυρί Φιλαδέλφεια, "
               },
+              "isNew": true,
               "sizes": [
                 {
                   "size": "medium",
