@@ -29,15 +29,14 @@
 
 /* ========= 2. Modal panel ========= */
 .modal {
-
     background: #fff;
     width: 75%;
-    margin: 2em !important;
+    margin: 2em auto !important;
     height: 90vh;
     display: flex;
     flex-direction: row;
     border-radius: .75rem;
-    overflow: hidden;
+
     transform: translateY(-20px);
     animation: modal-in .35s ease forwards;
 }
@@ -103,6 +102,9 @@
 /* ========= 5. Responsiveness ========= */
 @media (max-width: 768px) {
     .modal {
+
+    width: 95%;
+        margin: auto!important;
         flex-direction: column;
     }
     .modal__media,
