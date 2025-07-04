@@ -1,12 +1,14 @@
 import {useTranslations} from "next-intl";
 import Link from "next/link";
 import Image from "next/image";
+import {Loading} from "@/components/Commons/Loading";
+import {Suspense} from "react";
 
 
 export function HeroSection() {
     const messages = useTranslations('Homepage');
     return (
-        <>
+        <Suspense fallback={<Loading />}>
             <div className="banner banner-1 banner-4 light-banner">
 
                 <div className="banner-item">
@@ -42,6 +44,6 @@ export function HeroSection() {
                     </div>
                 </div>
             </div>
-        </>
+        </Suspense>
     )
 }

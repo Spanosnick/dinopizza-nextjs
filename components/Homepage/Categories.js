@@ -1,9 +1,12 @@
 import Link from "next/link";
 import {useTranslations} from "next-intl";
+import {Loading} from "@/components/Commons/Loading";
+import {Suspense} from "react";
 
 export function HomepageCategories() {
     const messages = useTranslations('Homepage');
     return (
+        <Suspense fallback={<Loading />}>
         <div className="ct-categories">
             <div className="ct-category">
                 <div className="ct-category-bg"  style={{backgroundImage: "url('/img/categories-lg/4.webp')"}}></div>
@@ -177,5 +180,6 @@ export function HomepageCategories() {
             </div>
 
         </div>
+        </Suspense>
     )
 }

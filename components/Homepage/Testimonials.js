@@ -1,7 +1,8 @@
 'use client';
 import {useTranslations} from "next-intl";
 import Script from "next/script";
-import {useEffect, useState} from "react";
+import {Suspense, useEffect, useState} from "react";
+import {Loading} from "@/components/Commons/Loading";
 
 export function Testimonials() {
     const messages = useTranslations('Homepage');
@@ -18,6 +19,7 @@ export function Testimonials() {
         return null; // Don't render anything in development or during SSR
     }
     return (
+        <Suspense fallback={<Loading />}>
         <section className="section testimonials">
             <div className="container">
                 <div className="section-title-wrap section-header text-center">
@@ -28,5 +30,6 @@ export function Testimonials() {
                 <div className="elfsight-app-dcceabdb-f9e1-4e4c-98b8-afcd8649ac6d" data-elfsight-app-lazy></div>
             </div>
         </section>
+        </Suspense>
     )
 }
