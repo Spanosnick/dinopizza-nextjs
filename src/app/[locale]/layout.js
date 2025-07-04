@@ -28,6 +28,7 @@ export default async function  RootLayout({children,params}) {
     return (
         <html lang={locale}>
         <head>
+            <title>Dino Pizza</title>
             <link rel="stylesheet" href="/css/style.css"/>
             <link rel="stylesheet" href="/css/modal.css"/>
             <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.webp"/>
