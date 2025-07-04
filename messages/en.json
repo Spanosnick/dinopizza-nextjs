@@ -133,7 +133,8 @@
   "MenuPage": {
     "pageTitle": "Μενού",
     "metaDescription": "Discover our menu of authentic Italian pizzas and pastas. Order online and enjoy flavors that will take you on a journey!",
-    "detailsCta": "Details"
+    "detailsCta": "Details",
+    "newProduct": "New Product"
   },
   "ProductDetails": {
     "size": "Size",

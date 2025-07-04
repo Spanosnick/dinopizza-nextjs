@@ -12,14 +12,13 @@ export default function ProductItem({product,locale,categorySlug}) {
         finalPrices = product.price + ' €';
     }
     let link = `/menu/${categorySlug}/${product.slug[locale]}`;
-    console.log(product?.isNew)
 
     return (
         <div className="col-lg-4 col-md-6">
             <div className="product">
                 <Link className="product-thumb" href={link}>
                     <Image src={product.image} alt={product.name[locale]} width={500} height={500} />
-                    {product?.isNew && <p className='newLabel'>NEW </p>}
+                    {product?.isNew && <p className='newLabel'>{messages('newProduct')} </p>}
                 </Link>
                 <div className="product-body">
                     <div className="product-desc">

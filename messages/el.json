@@ -133,7 +133,8 @@
   "MenuPage": {
     "pageTitle": "Menu",
     "metaDescription": "",
-    "detailsCta": "Λεπτομέρειες"
+    "detailsCta": "Λεπτομέρειες",
+    "newProduct": "Νέο Προϊόν"
   },
   "ProductDetails": {
     "size": "Μέγεθος",
