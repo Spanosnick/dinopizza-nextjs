@@ -34,7 +34,7 @@ export function HomepagePopUp() {
                     <h2>{messages('title')} 🍕</h2>
                     <p>  {messages('text1')} </p>
                     <p>   {messages('text2')}</p>
-                    <Link href="/menu"  onClick={togglePopup} className="btn-custom primary">  {messages('cta')}</Link>
+                    <Link href="/menu#pizzas"  onClick={togglePopup} className="btn-custom primary">  {messages('cta')}</Link>
                 </div>
             </div>
         </div>

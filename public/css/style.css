@@ -4300,6 +4300,7 @@ td.quantity{
   margin: 0 auto;
   border-radius: 1em;
   position: relative;
+  width: 100% !important;
 
 }
 .product-thumb  .newLabel{
