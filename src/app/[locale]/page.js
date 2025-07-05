@@ -18,7 +18,7 @@ export default function Home() {
         <Suspense fallback={<Loading />}>
             <HeroSection />
             <HomepageCategories/>
-            <Testimonials/>
+            {/*<Testimonials/>*/}
             <Hiring/>
             <InstagramPhotos/>
             <ContactForm/>
