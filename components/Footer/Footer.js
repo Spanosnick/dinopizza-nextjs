@@ -15,7 +15,7 @@ export default function Footer() {
                                 <li><Link href="">  {messages('home')}</Link></li>
                                 <li><Link href="/about"> {messages('aboutUs')}</Link></li>
                                 <li><Link href="/menu"> {messages('menu')}</Link></li>
-                                <li><Link href="/blog"> {messages('blog')}</Link></li>
+                                {/*<li><Link href="/blog"> {messages('blog')}</Link></li>*/}
                                 <li><Link href="/contact"> {messages('contact')}</Link></li>
                             </ul>
                         </div>
