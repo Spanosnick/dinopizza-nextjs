@@ -9,8 +9,7 @@ export async function SendSubscription({ email }) {
     try {
         await emailConfig.sendMail({
             from: `"Εγγραφή Newsletter | dinopizza.gr" <${process.env.SMTP_USER}>`,
-            // to: ["dinopizzavasilikou@gmail.com", "dpolikarpidis@gmail.com"],
-             to: ["nickspanosf1@gmail.com"],
+            to: ["dinopizzavasilikou@gmail.com", "dpolikarpidis@gmail.com"],
             replyTo: 'info@dinopizza.gr',
             subject: "Νέος χρήστης εγγραφής στο Newsletter",
             html,

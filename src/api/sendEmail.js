@@ -13,8 +13,7 @@ export async function sendEmail({ name, surname, email, subject, message }) {
     try {
         await emailConfig.sendMail({
             from: `"Φόρμα Επικοινωνίας | dinopizza.gr" <${process.env.SMTP_USER}>`,
-            // to: ["dinopizzavasilikou@gmail.com", "dpolikarpidis@gmail.com"],
-             to: ["nickspanosf1@gmail.com"],
+            to: ["dinopizzavasilikou@gmail.com", "dpolikarpidis@gmail.com"],
             replyTo: email,
             subject,
             html,
