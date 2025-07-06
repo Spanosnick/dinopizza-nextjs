@@ -87,7 +87,7 @@ export function HomepageCategories() {
                             </div>
 
                             <div className="col-lg-12 text-center">
-                                <Link href="menu/index.php#pizzas" className="btn-custom"> {messages('pizzaMenu.seeAll')}</Link>
+                                <Link href="menu#pizzas" className="btn-custom"> {messages('pizzaMenu.seeAll')}</Link>
                             </div>
                         </div>
 
@@ -168,7 +168,7 @@ export function HomepageCategories() {
                             </div>
 
                             <div className="col-lg-12 text-center">
-                                <Link href="menu/index.php#pasta" className="btn-custom"> {messages('pastaMenu.seeAll')} </Link>
+                                <Link href="menu#pasta" className="btn-custom"> {messages('pastaMenu.seeAll')} </Link>
                             </div>
                         </div>
 
