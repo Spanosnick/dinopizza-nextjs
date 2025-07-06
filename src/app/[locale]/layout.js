@@ -12,6 +12,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import {CookieConsentWrapper} from "@/components/CookieConsent/CookieConsentWrapper";
 import {HomepagePopUp} from "@/components/Homepage/HomepagePopUp";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 
@@ -37,6 +38,7 @@ export default async function  RootLayout({children,params}) {
             <link rel="shortcut icon" href="/favicon.ico"/>
             <link rel="apple-touch-icon" sizes="180x180" href="/img/logo.webp"/>
         </head>
+        <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTIC_CODE} />
         <body >
         <NextIntlClientProvider>
             <HomepagePopUp/>
