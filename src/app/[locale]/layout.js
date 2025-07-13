@@ -15,12 +15,6 @@ import {HomepagePopUp} from "@/components/Homepage/HomepagePopUp";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 
-
-export const metadata = {
-    title: "Dino Pizza",
-    description: "Dino Pizza - The best pizza in Vasilikou",
-};
-
 export default async function  RootLayout({children,params}) {
     const {locale} = await params;
     if (!hasLocale(routing.locales, locale)) {

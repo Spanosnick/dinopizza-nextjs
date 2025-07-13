@@ -51,9 +51,9 @@ export function ContactForm() {
                                 <div className="col-xl-6">
                                     <div className="ct-info-box">
                                         <i className="flaticon-location"></i>
-                                        <h5> Βρείτε μας εδώ {messages('contact.findUs')} </h5>
+                                        <h5>  {messages('contact.findUs')} </h5>
                                         <Link target="_blank" href="https://maps.app.goo.gl/s7GeKyEpES415HJP8">
-                                            <span>Διεύθυνση: {messages('contact.addressLabel')}</span> {messages('contact.address')}</Link>
+                                            <span> {messages('contact.addressLabel')}</span> {messages('contact.address')}</Link>
                                         <Link target="_blank"
                                               href="tel:+302221055959"><span>{messages('contact.phone1')}</span> 2221055959</Link>
                                         <Link target="_blank"

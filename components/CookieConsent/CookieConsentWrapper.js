@@ -32,7 +32,7 @@ export const CookieConsentWrapper = () => {
             }}
             enableDeclineButton
             onDecline={() => {
-                alert("nay!");
+                setConsentGiven(false);
             }}
             hideOnAccept
             ariaAcceptLabel={messages('acceptAll')}
