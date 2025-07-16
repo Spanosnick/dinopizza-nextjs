@@ -44,7 +44,7 @@ export function Navigation() {
             <div className="container">
                 <nav className="navbar">
                     <Link className="navbar-brand " href="/"> <Image src={`/img/logo.webp`} width={200} height={300}
-                                                                    alt="logo"/> </Link>
+                                                                     priority={false}      alt="logo"/> </Link>
                     <ul className="navbar-nav ">
                         <li className="menu-item">
                             <Link href="/"> {messages('home')} </Link>
