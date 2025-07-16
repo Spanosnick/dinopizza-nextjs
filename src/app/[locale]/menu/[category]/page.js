@@ -1,6 +1,8 @@
 import data from '@/data/products.json';
 import {findCategoryBySlug} from "@/lib/dataHelpers";
 import Category from "@/components/Products/Category";
+import {Suspense} from "react";
+import {Loading} from "@/components/Commons/Loading";
 
 export async function generateStaticParams() {
     const paths = [];
@@ -24,6 +26,6 @@ export default function CategoryPage({params}) {
         return <div>Κατηγορία δεν βρέθηκε</div>;
     }
 
-    return <Category category={foundCategory}/>
+    return  <Suspense fallback={<Loading />}><Category category={foundCategory}/> </Suspense>
 
 }

@@ -28,7 +28,7 @@ export function ContactForm() {
                 success: false,
                 message: messages('contact.formErrorMessage'),
                 error: result.message
-            });
+            });ω
         }
 
 

@@ -4,6 +4,8 @@ import Image from "next/image";
 import {SizeSelector} from "@/components/Products/SizeSelector";
 import {useTranslations} from "next-intl";
 import Link from "next/link";
+import {Loading} from "@/components/Commons/Loading";
+import {Suspense} from "react";
 
 
 export async function generateStaticParams() {
@@ -45,7 +47,8 @@ export default  function ProductPage({params}) {
     const {locale, category,product} =  params;
     const {name,description,slug,sizes,price,image,categoryId} =  findProductBySlug(category, product, locale);
     const messages = useTranslations('ProductDetails');
-    return (<div className="section product-single">
+    return ( <Suspense fallback={<Loading />}>
+        <div className="section product-single">
         <div className="container">
 
             <div className="row">
@@ -68,6 +71,8 @@ export default  function ProductPage({params}) {
             </div>
 
         </div>
-    </div>)
+    </div>
+        </Suspense>
+        )
 
 }

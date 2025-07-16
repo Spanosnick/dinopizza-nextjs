@@ -9,7 +9,7 @@ export function HomepageCategories() {
         <Suspense fallback={<Loading />}>
         <div className="ct-categories">
             <div className="ct-category">
-                <div className="ct-category-bg"  style={{backgroundImage: "url('/img/categories-lg/4.webp')"}}></div>
+                {/*<div className="ct-category-bg"  style={{backgroundImage: "url('/img/categories-lg/4.webp')"}}></div>*/}
                 <div className="ct-category-content">
                     <div className="ct-category-content-inner">
 
@@ -174,11 +174,10 @@ export function HomepageCategories() {
 
                     </div>
                 </div>
-                <div className="ct-category-bg" style={{backgroundImage: "url('/img/categories-lg/5.webp')"}}></div>
+                {/*<div className="ct-category-bg" style={{backgroundImage: "url('/img/categories-lg/5.webp')"}}></div>*/}
 
 
             </div>
-
         </div>
         </Suspense>
     )
