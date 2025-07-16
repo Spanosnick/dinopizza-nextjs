@@ -9,11 +9,11 @@ export function HeroSection() {
     const messages = useTranslations('Homepage');
     return (
         <Suspense fallback={<Loading />}>
-            <div className="banner banner-1 banner-4 light-banner">
+            <div className="banner banner-1 banner-4 light-banner" >
 
                 <div className="banner-item">
-                    <div className="banner-inner bg-cover bg-center dark-overlay dark-overlay-2"
-                         style={{backgroundImage: "url('/img/banner/7.webp')"}}>
+                    <div className="banner-inner bg-cover bg-center "
+                       >
                         <div className="container">
 
                             <h2 className="title">  {messages('hero.title')}</h2>
