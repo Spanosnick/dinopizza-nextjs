@@ -16,10 +16,10 @@ export default function ProductItem({product,locale,categorySlug}) {
     return (
         <div className="col-lg-4 col-md-6">
             <div className="product">
-                <Link className="product-thumb" href={link}>
-                    <Image src={product.image} alt={product.name[locale]} width={1500} height={1500} />
-                    {product?.isNew && <p className='newLabel'>{messages('newProduct')} </p>}
-                </Link>
+                {/*<Link className="product-thumb" href={link}>*/}
+                {/*    <Image src={product.image} alt={product.name[locale]} width={1500} height={1500} />*/}
+                {/*    {product?.isNew && <p className='newLabel'>{messages('newProduct')} </p>}*/}
+                {/*</Link>*/}
                 <div className="product-body">
                     <div className="product-desc">
                         <h4><Link  href={link}>{product.name[locale]}</Link></h4>
