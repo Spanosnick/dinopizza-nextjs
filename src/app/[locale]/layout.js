@@ -35,7 +35,7 @@ export default async function  RootLayout({children,params}) {
         <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTIC_CODE} />
         <body >
         <NextIntlClientProvider>
-            <HomepagePopUp/>
+            {/*<HomepagePopUp/>*/}
             <CookieConsentWrapper/>
             <MobileNavigation/>
             <Navigation/>
