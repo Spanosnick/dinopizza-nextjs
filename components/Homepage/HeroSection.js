@@ -12,8 +12,8 @@ export function HeroSection() {
             <div className="banner banner-1 banner-4 light-banner" >
 
                 <div className="banner-item">
-                    <div className="banner-inner bg-cover bg-center "
-                       >
+                    <div className="banner-inner bg-cover bg-center dark-overlay dark-overlay-2"
+                         style={{backgroundImage: "url('/img/banner/7.webp')"}}>
                         <div className="container">
 
                             <h2 className="title">  {messages('hero.title')}</h2>
