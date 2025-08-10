@@ -43,6 +43,9 @@ function LanguageChanger() {
                             const localizedProduct = getLocalizedProductSlug(categorySlug, productSlug, currentLocale, locale);
                             href += `/${localizedProduct}`;
                         }
+                    }else {
+              
+                        href = `/${section}`;
                     }
 
                     return (
