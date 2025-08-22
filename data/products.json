@@ -296,12 +296,21 @@
               "sizes": [
                 {
                   "size": "medium",
-                  "price": 7
+                  "price": 7.7
+                },
+                {
+                  "size": "medium-fill",
+                  "price": 9.4
                 },
                 {
                   "size": "big",
-                  "price": 10.9
+                  "price": 11.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 14.5
                 }
+
               ],
               "image": "/img/pizza/italiki_carbonara.webp"
             },
@@ -1050,7 +1059,7 @@
             "en": "Lettuce, cucumber, onion, crouton, tuna, mayonnaise",
             "el": "Μαρούλι, αγγούρι, κρεμμύδι, κρουτόν, τόνος, μαγιονέζα"
           },
-          "price": 6.5,
+          "price": 6.9,
           "image": "/img/salads/tuna.webp"
         },
         {
@@ -1409,7 +1418,7 @@
           },
           "name": {
             "en": "With ham or turkey",
-            "el": "Με ζαμπόν 'η γαλοπούλα"
+            "el": "Με ζαμπόν ή γαλοπούλα"
           },
           "description": {
             "en": "Dino sauce, ham or turkey, tomato, cheese blend",
@@ -1449,7 +1458,7 @@
             "en": "Dino sauce, chicken, tomato, cheese blend",
             "el": "Σως Dino, κοτόπουλο, ντομάτα, μείγμα τυριών"
           },
-          "price": 2.9,
+          "price": 3.1,
           "image": "/img/glosses/chicken.jpg"
         },
         {
