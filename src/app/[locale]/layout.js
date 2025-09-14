@@ -11,12 +11,12 @@ import {routing} from '../../i18n/routing';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import {CookieConsentWrapper} from "@/components/CookieConsent/CookieConsentWrapper";
-import {HomepagePopUp} from "@/components/Homepage/HomepagePopUp";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 export default async function  RootLayout({children,params}) {
     const {locale} = await params;
+    console.log(locale)
     if (!hasLocale(routing.locales, locale)) {
         notFound();
     }

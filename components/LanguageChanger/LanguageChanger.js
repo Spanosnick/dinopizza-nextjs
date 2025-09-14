@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import {useRouter, usePathname,Link} from '@/src/i18n/navigation';
+import {usePathname, Link} from '@/src/i18n/navigation';
 import {useLocale} from 'next-intl';
 import {getLocalizedCategorySlug, getLocalizedProductSlug} from "@/lib/dataHelpers";
 
@@ -12,7 +12,7 @@ function LanguageChanger() {
     const currentLocale = useLocale();
     const parts = pathname.split('/').filter(Boolean); // ['en', 'menu', 'pizzas', 'ala-creme']
 
-    const [ section, categorySlug, productSlug] = parts;
+    const [section, categorySlug, productSlug] = parts;
 
     return (
         <div id="language-container">
@@ -43,10 +43,16 @@ function LanguageChanger() {
                             const localizedProduct = getLocalizedProductSlug(categorySlug, productSlug, currentLocale, locale);
                             href += `/${localizedProduct}`;
                         }
+                    } else {
+                        if (section){
+                            href = `/${section}`;
+                        }
+
                     }
 
+
                     return (
-                        <Link key={locale} href={href} locale={locale}>
+                        <Link key={locale} href={href} locale={locale} scroll>
               <span className="">
                 <span className={`flag-icon flag-icon-${locale} mx-1`}></span>
               </span>
