@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, {useEffect} from 'react';
 import {usePathname, Link} from '@/src/i18n/navigation';
 import {useLocale} from 'next-intl';
 import {getLocalizedCategorySlug, getLocalizedProductSlug} from "@/lib/dataHelpers";
@@ -13,6 +13,11 @@ function LanguageChanger() {
     const parts = pathname.split('/').filter(Boolean); // ['en', 'menu', 'pizzas', 'ala-creme']
 
     const [section, categorySlug, productSlug] = parts;
+
+    useEffect(() => {
+        // go to the up with scroll
+        window.scrollTo(0, 0);
+    }, [parts]);
 
     return (
         <div id="language-container">
