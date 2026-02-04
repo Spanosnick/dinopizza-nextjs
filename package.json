@@ -19,7 +19,7 @@
     "html-react-parser": "^5.2.5",
     "i18n": "^0.15.1",
     "js-cookie": "^3.0.5",
-    "next": "^15.3.5",
+    "next": "15.3.8",
     "next-intl": "^4.1.0",
     "nodemailer": "^7.0.3",
     "react": "^19.0.0",
