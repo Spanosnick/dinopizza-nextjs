@@ -724,8 +724,8 @@
                 "el": "Μe τέσσερα τυριά"
               },
               "description": {
-                "en": "Sauce, tuna, tomato, kefalotyri, gouda, Edam, mozzarella",
-                "el": "Σάλτσα, τόνος, ντομάτα, κεφαλοτύρι, γκούντα, ένταμ, μοτσαρέλα"
+                "en": "Sauce, tomato, kefalotyri, gouda, Edam, mozzarella",
+                "el": "Σάλτσα, ντομάτα, κεφαλοτύρι, γκούντα, ένταμ, μοτσαρέλα"
               },
               "sizes": [
                 {
@@ -872,9 +872,9 @@
           "image": "/img/pasta/special.webp"
         },
         {
-          "id": "four-cheese",
+          "id": "four-cheese-pasta",
           "slug": {
-            "en": " four-cheese",
+            "en": "four-cheese-pasta",
             "el": "me-tessera-tyria"
           },
           "name": {
