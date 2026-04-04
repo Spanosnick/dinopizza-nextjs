@@ -13,25 +13,25 @@ export function MobileNavigation() {
                 <div className="aside-scroll">
                     <ul>
                         <li className="menu-item">
-                            <Link href="/"> {messages('home')} </Link>
+                            <Link  href={`/${locale}`}> {messages('home')} </Link>
                         </li>
 
                         <li className="menu-item menu-item-has-children">
-                            <Link href="/menu"> {messages('menu')}</Link>
+                            <Link href={`/${locale}/menu`}> {messages('menu')}</Link>
                             <ul className="submenu">
                                 {productsData.categories.map(category => renderMenu(category,locale))}
                             </ul>
                         </li>
 
                         <li className="menu-item">
-                            <Link href="about"> {messages('aboutUs')} </Link>
+                            <Link href={`/${locale}/about`}> {messages('aboutUs')} </Link>
                         </li>
 
                         {/*<li className="menu-item  ">*/}
                         {/*    <Link href="blog">  {messages('blog')}</Link>*/}
                         {/*</li>*/}
                         <li className="menu-item">
-                            <Link href="contact">  {messages('contact')}</Link>
+                            <Link href={`/${locale}/contact`}>  {messages('contact')}</Link>
                         </li>
                     </ul>
 

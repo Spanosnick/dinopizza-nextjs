@@ -34,7 +34,7 @@ export function Navigation() {
                         </div>
 
                         <ul className="top-header-nav header-cta">
-                            <li><Link href='/yourpizza'>  {messages('createYourPizza')}</Link></li>
+                            <li><Link href={`/${locale}/yourpizza`}>  {messages('createYourPizza')}</Link></li>
                         </ul>
 
                     </div>
@@ -43,28 +43,28 @@ export function Navigation() {
 
             <div className="container">
                 <nav className="navbar">
-                    <Link className="navbar-brand " href="/"> <Image src={`/img/logo.webp`} width={200} height={300}
+                    <Link className="navbar-brand "  href={`/${locale}`} > <Image src={`/img/logo.webp`} width={200} height={300}
                                                                      priority={false}      alt="logo"/> </Link>
                     <ul className="navbar-nav ">
                         <li className="menu-item">
-                            <Link href="/"> {messages('home')} </Link>
+                            <Link href={`/${locale}`}> {messages('home')} </Link>
                         </li>
                         <li className="menu-item menu-item-has-children">
-                            <Link href="/menu"> {messages('menu')}</Link>
+                            <Link href={`/${locale}/menu`}> {messages('menu')}</Link>
                             <ul className="submenu">
                                 {productsData.categories.map(category => renderMenu(category,locale))}
                             </ul>
                         </li>
 
                         <li className="menu-item">
-                            <Link href="about"> {messages('aboutUs')} </Link>
+                            <Link href={`/${locale}/about`}> {messages('aboutUs')} </Link>
                         </li>
 
                         {/*<li className="menu-item  ">*/}
                         {/*    <Link href="blog">  {messages('blog')}</Link>*/}
                         {/*</li>*/}
                         <li className="menu-item">
-                            <Link href="contact">  {messages('contact')}</Link>
+                            <Link href={`/${locale}/contact`}>  {messages('contact')}</Link>
                         </li>
                     </ul>
                     <div className="header-controls">

@@ -1,10 +1,11 @@
 import Link from "next/link";
-import {useTranslations} from "next-intl";
+import {useLocale, useTranslations} from "next-intl";
 import {Loading} from "@/components/Commons/Loading";
 import {Suspense} from "react";
 
 export function HomepageCategories() {
     const messages = useTranslations('Homepage');
+    const locale = useLocale();
     return (
         <Suspense fallback={<Loading />}>
         <div className="ct-categories">
@@ -24,7 +25,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pizza/dino-special">{messages('pizzaMenu.items.dinoSpecial.name')}</Link>
+                                        <Link href={`/${locale}/menu/pizza/dino-special`}>{messages('pizzaMenu.items.dinoSpecial.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pizzaMenu.items.dinoSpecial.description')} </p>
@@ -34,7 +35,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pizza/ala-krem">{messages('pizzaMenu.items.alaCream.name')}</Link>
+                                        <Link href={`/${locale}/menu/pizza/ala-krem`}>{messages('pizzaMenu.items.alaCream.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p>{messages('pizzaMenu.items.alaCream.description')}</p>
@@ -45,7 +46,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pizza/chicken">  {messages('pizzaMenu.items.withChicken.name')}</Link>
+                                        <Link href={`/${locale}/menu/pizza/chicken`}>  {messages('pizzaMenu.items.withChicken.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pizzaMenu.items.withChicken.description')}</p>
@@ -56,7 +57,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pizza/cold-cut">  {messages('pizzaMenu.items.withColdCuts.name')}</Link>
+                                        <Link href={`/${locale}/menu/pizza/cold-cut`}>  {messages('pizzaMenu.items.withColdCuts.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p>{messages('pizzaMenu.items.withColdCuts.description')}</p>
@@ -67,7 +68,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pizza/barbeque"> {messages('pizzaMenu.items.barbeque.name')}</Link>
+                                        <Link href={`/${locale}/menu/pizza/barbeque`}> {messages('pizzaMenu.items.barbeque.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pizzaMenu.items.barbeque.description')}</p>
@@ -78,7 +79,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pizza/chicken-barbeque">  {messages('pizzaMenu.items.chickenBarbeque.name')}</Link>
+                                        <Link href={`/${locale}/menu/pizza/chicken-barbeque`}>  {messages('pizzaMenu.items.chickenBarbeque.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pizzaMenu.items.chickenBarbeque.description')}</p>
@@ -109,7 +110,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pasta/napoliten"> {messages('pastaMenu.items.napoliten.name')}</Link>
+                                        <Link href={`/${locale}/menu/pasta/napoliten`}> {messages('pastaMenu.items.napoliten.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pastaMenu.items.napoliten.description')}</p>
@@ -119,7 +120,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pasta/carbonara"> {messages('pastaMenu.items.carbonara.name')}</Link>
+                                        <Link href={`/${locale}/menu/pasta/carbonara`}> {messages('pastaMenu.items.carbonara.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pastaMenu.items.carbonara.description')}</p>
@@ -129,7 +130,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pasta/ala-krem"> {messages('pastaMenu.items.alaCream.name')}</Link>
+                                        <Link href={`/${locale}/menu/pasta/ala-krem`}> {messages('pastaMenu.items.alaCream.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pastaMenu.items.alaCream.description')}</p>
@@ -139,7 +140,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pasta/special"> {messages('pastaMenu.items.special.name')}</Link>
+                                        <Link href={`/${locale}/menu/pasta/special`}> {messages('pastaMenu.items.special.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pastaMenu.items.special.description')}</p>
@@ -149,7 +150,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pasta/four-cheese"> {messages('pastaMenu.items.with4Cheeses.name')}</Link>
+                                        <Link href={`/${locale}/menu/pasta/four-cheese`}> {messages('pastaMenu.items.with4Cheeses.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pastaMenu.items.with4Cheeses.description')}</p>
@@ -159,7 +160,7 @@ export function HomepageCategories() {
                             <div className="col-lg-6">
                                 <div className="ct-mini-menu-item">
                                     <div className="ct-mini-menu-top">
-                                        <Link href="menu/pasta/bolonez"> {messages('pastaMenu.items.bolonez.name')}</Link>
+                                        <Link href={`/${locale}/menu/pasta/bolonez`}> {messages('pastaMenu.items.bolonez.name')}</Link>
                                     </div>
                                     <div className="ct-mini-menu-bottom">
                                         <p> {messages('pastaMenu.items.bolonez.description')}</p>
