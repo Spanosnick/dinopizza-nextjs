@@ -5,19 +5,19 @@ export default function renderMenu(category,locale) {
 
         return (
             <li key={category.id} className="menu-item">
-                <Link href={`/${locale}/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
+                <Link href={`/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
             </li>
         );
     } else if(!category.subcategories && category.showProducts === true)  {
 
         return (
             <li key={category.id} className="menu-item menu-item-has-children">
-                <Link href={`/${locale}/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
+                <Link href={`/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
                 <ul className="submenu">
                     {category.products.map(product => (
                         <li key={product.id} className="menu-item">
                             <Link
-                                href={`/${locale}/menu/${category.slug[locale]}/${product.slug[locale]}`}>
+                                href={`/menu/${category.slug[locale]}/${product.slug[locale]}`}>
                                 {product.name[locale]}
                             </Link>
                         </li>
@@ -29,7 +29,7 @@ export default function renderMenu(category,locale) {
 
     if (category.subcategories) {
         return (<li key={category.id} className="menu-item menu-item-has-children">
-            <Link href={`/${locale}/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
+            <Link href={`/menu/${category.slug[locale]}`}>{category.name[locale]}</Link>
             <ul className="submenu">
                 {category.subcategories.map(sub => (
                     <li key={sub.id} className="menu-item menu-item-has-children">
@@ -38,7 +38,7 @@ export default function renderMenu(category,locale) {
                             {sub.products.map(product => (
                                 <li key={product.id} className="menu-item">
                                     <Link
-                                        href={`/${locale}/menu/${category.slug[locale]}/${product.slug[locale]}`}>
+                                        href={`/menu/${category.slug[locale]}/${product.slug[locale]}`}>
                                         {product.name[locale]}
                                     </Link>
                                 </li>

@@ -11,7 +11,7 @@ export default function ProductItem({product,locale,categorySlug}) {
     } else {
         finalPrices = product.price + ' €';
     }
-    let link = `/${locale}/menu/${categorySlug}/${product.slug[locale]}`;
+    let link = `/menu/${categorySlug}/${product.slug[locale]}`;
 
     return (
         <div className="col-lg-4 col-md-6">

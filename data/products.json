@@ -724,8 +724,8 @@
                 "el": "Μe τέσσερα τυριά"
               },
               "description": {
-                "en": "Sauce, tomato, kefalotyri, gouda, Edam, mozzarella",
-                "el": "Σάλτσα, ντομάτα, κεφαλοτύρι, γκούντα, ένταμ, μοτσαρέλα"
+                "en": "Sauce, tuna, tomato, kefalotyri, gouda, Edam, mozzarella",
+                "el": "Σάλτσα, τόνος, ντομάτα, κεφαλοτύρι, γκούντα, ένταμ, μοτσαρέλα"
               },
               "sizes": [
                 {
@@ -763,8 +763,8 @@
             {
               "id": "oreo",
               "slug": {
-                "en": "sweet-pizza",
-                "el": "glykia"
+                "en": "margarita",
+                "el": "sweet"
               },
               "name": {
                 "en": "Sweet",
@@ -874,7 +874,7 @@
         {
           "id": "four-cheese",
           "slug": {
-            "en": "four-cheeses",
+            "en": " four-cheese",
             "el": "me-tessera-tyria"
           },
           "name": {
@@ -909,7 +909,7 @@
           "id": "chicken-pasta",
           "slug": {
             "en": "chicken-pasta",
-            "el": "kotomakaronada"
+            "el": "mpolonez"
           },
           "name": {
             "en": "Chicken pasta",
