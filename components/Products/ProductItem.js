@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import {useTranslations} from "next-intl";
 
 export default function ProductItem({product,locale,categorySlug}) {
