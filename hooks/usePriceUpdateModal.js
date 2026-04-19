@@ -25,8 +25,12 @@ export function usePriceUpdateModal() {
     }, []);
 
     const close = useCallback(() => {
-        sessionStorage.setItem(STORAGE_KEY, CURRENT_VERSION);
-   
+        try {
+            sessionStorage.setItem(STORAGE_KEY, CURRENT_VERSION);
+        } catch {
+            // sessionStorage μπορεί να είναι unavailable, αλλά το modal πρέπει να κλείσει
+        }
+
         setIsOpen(false);
     }, []);
 
