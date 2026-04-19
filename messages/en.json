@@ -307,6 +307,11 @@
     "benefit3": "Safety equipment (helmet, jacket, raincoat)",
     "phoneNumber": "Phone:",
     "email": "Email:"
+  },
+  "PriceUpdateModal": {
+    "title": "A little update from the Dino Pizza family 🍕",
+    "description": "We kept our prices steady for as long as we could. To continue serving you the same quality and taste, we've had to slightly adjust some of our prices.\n\nThe new prices take effect from 27/04/2026",
+    "cta": "Got it"
   }
 }
 

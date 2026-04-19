@@ -12,6 +12,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import {CookieConsentWrapper} from "@/components/CookieConsent/CookieConsentWrapper";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import PriceUpdateModal from "@/components/Head/PriceUpdateModal";
 
 
 export default async function  RootLayout({children,params}) {
@@ -36,12 +37,14 @@ export default async function  RootLayout({children,params}) {
         <NextIntlClientProvider>
             {/*<HomepagePopUp/>*/}
             <CookieConsentWrapper/>
+
             <MobileNavigation/>
             <Navigation/>
             <LanguageChanger/>
             {children}
             <SpeedInsights />
             <Analytics />
+            <PriceUpdateModal />
         </NextIntlClientProvider>
         <Footer/>
         <Script src="/js/plugins/jquery-3.4.1.min.js" strategy="beforeInteractive"></Script>
