@@ -77,7 +77,7 @@
               "sizes": [
                 {
                   "size": "medium",
-                  "price": 9.3
+                  "price": 8.5
                 },
                 {
                   "size": "medium-fill",
@@ -85,7 +85,7 @@
                 },
                 {
                   "size": "big",
-                  "price": 13.9
+                  "price": 12.9
                 },
                 {
                   "size": "big-fill",
@@ -296,7 +296,7 @@
               "sizes": [
                 {
                   "size": "medium",
-                  "price": 9.3
+                  "price": 8.5
                 },
                 {
                   "size": "medium-fill",
@@ -304,7 +304,7 @@
                 },
                 {
                   "size": "big",
-                  "price": 13.9
+                  "price": 12.9
                 },
                 {
                   "size": "big-fill",
@@ -335,8 +335,16 @@
                   "price": 9.3
                 },
                 {
+                  "size": "medium-fill",
+                  "price": 11
+                },
+                {
                   "size": "big",
                   "price": 13.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 16.5
                 }
               ],
               "image": "/img/pizza/italiki_polo.webp"
@@ -362,8 +370,16 @@
                   "price": 9.3
                 },
                 {
+                  "size": "medium-fill",
+                  "price": 11
+                },
+                {
                   "size": "big",
                   "price": 13.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 16.5
                 }
               ],
               "image": "/img/pizza/italiki_four_seasons.webp"
@@ -389,8 +405,16 @@
                   "price": 7.9
                 },
                 {
+                  "size": "medium-fill",
+                  "price": 9.6
+                },
+                {
                   "size": "big",
-                  "price": 13.9
+                  "price": 11.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 14.5
                 }
               ],
               "image": "/img/pizza/italian_pizza.webp"
@@ -413,11 +437,19 @@
               "sizes": [
                 {
                   "size": "medium",
-                  "price": 9.3
+                  "price": 8.5
+                },
+                {
+                  "size": "medium-fill",
+                  "price": 10.3
                 },
                 {
                   "size": "big",
-                  "price": 13.9
+                  "price": 12.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 15.5
                 }
               ],
               "image": "/img/pizza/italian_galopoula.webp"
@@ -443,8 +475,16 @@
                   "price": 9.3
                 },
                 {
+                  "size": "medium-fill",
+                  "price": 11
+                },
+                {
                   "size": "big",
                   "price": 13.9
+                },
+                {
+                  "size": "big-fill",
+                  "price": 16.5
                 }
               ],
               "image": "/img/pizza/italian_cheese.webp"
@@ -483,7 +523,7 @@
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10
+                  "price": 11
                 },
                 {
                   "size": "big",
@@ -517,7 +557,7 @@
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10
+                  "price": 11
                 },
                 {
                   "size": "big",
@@ -551,7 +591,7 @@
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10
+                  "price": 11
                 },
                 {
                   "size": "big",
@@ -585,7 +625,7 @@
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10
+                  "price": 11
                 },
                 {
                   "size": "big",
@@ -721,7 +761,7 @@
               },
               "name": {
                 "en": "With four cheeses",
-                "el": "Μe τέσσερα τυριά"
+                "el": "Με τέσσερα τυριά"
               },
               "description": {
                 "en": "Sauce, tomato, kefalotyri, gouda, Edam, mozzarella",
@@ -730,11 +770,11 @@
               "sizes": [
                 {
                   "size": "medium",
-                  "price": 9.3
+                  "price": 8.5
                 },
                 {
                   "size": "medium-fill",
-                  "price": 10.3
+                  "price": 12.9
                 },
                 {
                   "size": "big",
@@ -885,7 +925,7 @@
             "en": "Spaghetti, kefalotyri cheese, cream, roquefort, gouda, edam, mozzarella",
             "el": "Σπαγγέτι, κεφαλοτύρι, κρέμα γάλακτος, ροκφόρ, γκούντα, ένταμ, μοτσαρέλα"
           },
-          "price": 6.5,
+          "price": 6.9,
           "image": "/img/pasta/four-cheese.webp"
         },
         {
@@ -936,7 +976,7 @@
             "en": "Spaghetti, kefalotyri cheese, mushrooms, ham, bacon, cream, cheese blend",
             "el": "Σπαγγέτι, κεφαλοτύρι, μανιτάρια, ζαμπόν, μπέικον, κρέμα γάλακτος, μείγμα τυριών"
           },
-          "price": 6.5,
+          "price": 6.9,
           "image": "/img/pasta/dino.webp"
         }
       ],
@@ -1318,7 +1358,7 @@
             "en": "Sujuk, pepperoni, bacon, cheese blend",
             "el": "Σουτζούκι, πεπερόνε, μπέικον, μείγμα τυριών"
           },
-          "price": 4.3,
+          "price": 4.5,
           "image": "/img/penirli/spicy.webp"
         }
       ],
@@ -1365,7 +1405,7 @@
           },
           "name": {
             "en": "Olive bread (8 pcs)",
-            "el": "Ψωμί με ελιές (8 κομμάτια)"
+            "el": "Με ελιές (8 κομμάτια)"
           },
           "description": {
             "en": "Cheese blend, olives",
@@ -1681,7 +1721,7 @@
             "en": "",
             "el": ""
           },
-          "price": 1.9,
+          "price": 1.7,
           "image": "/img/drinks/amstel.jpg"
         },
         {
@@ -1698,7 +1738,7 @@
             "en": "",
             "el": ""
           },
-          "price": 1.9,
+          "price": 1.7,
           "image": "/img/drinks/alfa.jpg"
         },
         {
