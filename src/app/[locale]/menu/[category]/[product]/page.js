@@ -66,8 +66,10 @@ export default  function ProductPage({params}) {
                         <p> {description}</p>
 
                         <SizeSelector sizes={sizes} price={price} />
+                        <h5>{messages('giftDisclaimer')}</h5>
                         {categoryId == 'pizzas' && <p>{messages('disclaimerItalian1')}</p> }
                         {categoryId == 'pizzas' &&<p>{messages('disclaimerItalian2')}</p> }
+
                         <Link href="/menu" className="order-item btn-custom btn-sm shadow-none w-100"> {messages('menuCta')}  </Link>
                     </div>
                 </div>

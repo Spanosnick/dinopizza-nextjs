@@ -147,7 +147,8 @@
     "price": "Price",
     "disclaimerItalian1": "All pizzas in the Italian category are made with thin crust.",
     "disclaimerItalian2": "Upon request, they can also be prepared with classic dough.",
-    "disclaimerThinPizza": "Upon request, it can be prepared with thin crust."
+    "disclaimerThinPizza": "Upon request, it can be prepared with thin crust.",
+    "giftDisclaimer": "With the order over 35€, you receive a 1500ml COCA COLA free."
   },
   "about": {
     "title": "About Us",
