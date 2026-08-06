@@ -19,7 +19,8 @@ export async function generateStaticParams() {
     return paths;
 }
 
-export default function CategoryPage({params}) {
+export default async function CategoryPage(props) {
+    const params = await props.params;
     const {locale, category} = params;
     const foundCategory = findCategoryBySlug(category, locale);
     if (!foundCategory) {
@@ -27,5 +28,4 @@ export default function CategoryPage({params}) {
     }
 
     return  <Suspense fallback={<Loading />}><Category category={foundCategory} priority/> </Suspense>
-
 }

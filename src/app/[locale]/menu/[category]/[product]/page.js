@@ -5,7 +5,7 @@ import {SizeSelector} from "@/components/Products/SizeSelector";
 import {useTranslations} from "next-intl";
 import Link from "next/link";
 import {Loading} from "@/components/Commons/Loading";
-import {Suspense} from "react";
+import { Suspense, use } from "react";
 
 
 export async function generateStaticParams() {
@@ -43,7 +43,8 @@ export async function generateStaticParams() {
 }
 
 
-export default  function ProductPage({params}) {
+export default function ProductPage(props) {
+    const params = use(props.params);
     const {locale, category,product} =  params;
     const {name,description,slug,sizes,price,image,categoryId} =  findProductBySlug(category, product, locale);
     const messages = useTranslations('ProductDetails');
@@ -79,5 +80,4 @@ export default  function ProductPage({params}) {
     </div>
         </Suspense>
         )
-
 }
