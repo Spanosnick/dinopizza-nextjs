@@ -7,15 +7,18 @@ import {InstagramPhotos} from "@/components/Homepage/InstagramPhotos";
 import {ContactForm} from "@/components/Homepage/ContactForm";
 import {Loading} from "@/components/Commons/Loading";
 import {getPageMetadata} from "@/lib/generateMetadata";
+import RestaurantJsonLd from "@/components/SEO/RestaurantJsonLd";
 
 export async function generateMetadata({params}) {
     const { locale } = await params
     return getPageMetadata(locale, 'Homepage');
 }
 
-export default function Home() {
+export default async function Home({params}) {
+    const { locale } = await params;
     return (
         <Suspense fallback={<Loading />}>
+            <RestaurantJsonLd locale={locale} />
             <HeroSection />
             <HomepageCategories/>
             {/*<Testimonials/>*/}
