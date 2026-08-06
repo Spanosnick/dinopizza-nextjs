@@ -26,6 +26,6 @@ export default function CategoryPage({params}) {
         return <div>Κατηγορία δεν βρέθηκε</div>;
     }
 
-    return  <Suspense fallback={<Loading />}><Category category={foundCategory}/> </Suspense>
+    return  <Suspense fallback={<Loading />}><Category category={foundCategory} priority/> </Suspense>
 
 }
