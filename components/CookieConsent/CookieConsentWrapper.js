@@ -1,7 +1,7 @@
 'use client'
 import CookieConsent from 'react-cookie-consent';
 import { useEffect, useState } from 'react';
-import {useAnalyticsConsent} from "@/hooks/useAnalyticsConsent";
+import { GoogleAnalytics } from '@next/third-parties/google';
 import {useTranslations} from "next-intl";
 
 
@@ -16,9 +16,9 @@ export const CookieConsentWrapper = () => {
         }
     }, []);
 
-    useAnalyticsConsent(consentGiven);
-
     return (
+        <>
+        {consentGiven && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTIC_CODE} />}
         <CookieConsent
             location="bottom"
             buttonText={messages('acceptAll')}
@@ -40,5 +40,6 @@ export const CookieConsentWrapper = () => {
         >
             {messages('description')}
         </CookieConsent>
+        </>
     );
 };
