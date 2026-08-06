@@ -60,8 +60,8 @@ The project uses **legacy CSS** (Bootstrap + jQuery plugins), not Tailwind. Styl
 ### SEO & Analytics
 
 - Per-page metadata generated via `lib/generateMetadata.js`
-- Google Analytics via `@next/third-parties/google` (requires `GOOGLE_ANALYTIC_CODE` env var)
-- Cookie consent gates analytics tracking (`hooks/useAnalyticsConsent.js`)
+- Google Analytics via `@next/third-parties/google` (requires `NEXT_PUBLIC_GOOGLE_ANALYTIC_CODE` env var)
+- Cookie consent gates analytics tracking — `<GoogleAnalytics>` is only rendered after consent is granted, inside `components/CookieConsent/CookieConsentWrapper.js`
 - Vercel Analytics and Speed Insights included in the root layout
 
 ## Environment Variables
@@ -69,5 +69,5 @@ The project uses **legacy CSS** (Bootstrap + jQuery plugins), not Tailwind. Styl
 ```
 SMTP_USER            # Hostinger SMTP username
 SMTP_PASS            # Hostinger SMTP password
-GOOGLE_ANALYTIC_CODE # GA4 measurement ID
+NEXT_PUBLIC_GOOGLE_ANALYTIC_CODE # GA4 measurement ID (must be NEXT_PUBLIC_ since it's read client-side to gate on cookie consent)
 ```
