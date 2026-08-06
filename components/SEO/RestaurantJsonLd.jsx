@@ -49,6 +49,8 @@ export default function RestaurantJsonLd({ locale = "el" }) {
             },
         ],
         sameAs: [
+            "https://www.instagram.com/dinopizza_vasilikou/",
+            "https://www.facebook.com/dino.pizza.vasilikou"
             // Add your real social profile URLs here (Facebook, Instagram, etc.)
         ],
     };
