@@ -21,7 +21,7 @@ export default async function Home({params}) {
             <RestaurantJsonLd locale={locale} />
             <HeroSection />
             <HomepageCategories/>
-            {/*<Testimonials/>*/}
+            <Testimonials/>
             <Hiring/>
             <InstagramPhotos/>
             <ContactForm/>
