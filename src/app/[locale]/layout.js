@@ -1,6 +1,7 @@
 import "./globals.css";
 import Script from 'next/script'
 import React from "react";
+import {Open_Sans, Roboto_Slab} from "next/font/google";
 import {MobileNavigation} from "@/components/Navigation/MobileNavigation";
 import {Navigation} from "@/components/Navigation/Navigation";
 import LanguageChanger from "@/components/LanguageChanger/LanguageChanger";
@@ -13,6 +14,19 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import {CookieConsentWrapper} from "@/components/CookieConsent/CookieConsentWrapper";
 import PriceUpdateModal from "@/components/Head/PriceUpdateModal";
 
+const openSans = Open_Sans({
+    subsets: ["latin", "greek"],
+    weight: ["400", "600", "700"],
+    display: "swap",
+    variable: "--font-open-sans",
+});
+
+const robotoSlab = Roboto_Slab({
+    subsets: ["latin", "greek"],
+    weight: ["400", "700"],
+    display: "swap",
+    variable: "--font-roboto-slab",
+});
 
 export default async function  RootLayout({children,params}) {
     const {locale} = await params;
@@ -20,9 +34,13 @@ export default async function  RootLayout({children,params}) {
         notFound();
     }
     return (
-        <html lang={locale}>
+        <html lang={locale} className={`${openSans.variable} ${robotoSlab.variable}`}>
         <head>
             <title>Dino Pizza</title>
+            <link rel="stylesheet" href="/css/plugins/bootstrap.min.css"/>
+            <link rel="stylesheet" href="/css/plugins/animate.min.css"/>
+            <link rel="stylesheet" href="/fonts/font-awesome/css/all.min.css"/>
+            <link rel="stylesheet" href="/flags/css/flag-icon.css"/>
             <link rel="stylesheet" href="/css/style.css"/>
             <link rel="stylesheet" href="/css/modal.css"/>
             <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.webp"/>
